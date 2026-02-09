@@ -1,11 +1,11 @@
-version: 2.1.5
+version: 2.1.6
 files:
-  - url: Mimicry-2.1.5-arm64-mac.zip
-    sha512: +ms+IsJJRyRtjgXiT2+6mzapqwMlz+oHSUPPn9RnCW2YyyZFzKF3gXs0rKUQiRxYhiljVYeb7eNoK9TMvOveBw==
-    size: 161394947
-  - url: Mimicry-2.1.5-arm64.dmg
-    sha512: fwPEBvIRa/cxzzN6cbVv6OcWC3kwgd/vc9qwDEmLUOxmo5OXQnqfeHtYmM2ionlirQ8HX2Yozxt3kvwRGfQCIA==
-    size: 169785293
-path: Mimicry-2.1.5-arm64-mac.zip
-sha512: +ms+IsJJRyRtjgXiT2+6mzapqwMlz+oHSUPPn9RnCW2YyyZFzKF3gXs0rKUQiRxYhiljVYeb7eNoK9TMvOveBw==
-releaseDate: '2026-02-05T16:14:19.049Z'
+  - url: Mimicry-2.1.6-arm64-mac.zip
+    sha512: x24L7otwnNoIxJA1LC9xJUjk+n+TetyhMWFlGBzRWEE9Erq0oJbWjf0nb+UEMebM5xD/93sVOZotnnqlzEjJAg==
+    size: 161405843
+  - url: Mimicry-2.1.6-arm64.dmg
+    sha512: 3PJAhQF4TRnOZxMvodE2lEOn3Nn0KGVROOiciJMkUxc+lCo2sMtcvvLnlb4/uhtaJ0OmnhD2wk5KwblY9Q2dpw==
+    size: 169815953
+path: Mimicry-2.1.6-arm64-mac.zip
+sha512: x24L7otwnNoIxJA1LC9xJUjk+n+TetyhMWFlGBzRWEE9Erq0oJbWjf0nb+UEMebM5xD/93sVOZotnnqlzEjJAg==
+releaseDate: '2026-02-09T05:48:09.704Z'
