@@ -1,8 +1,88 @@
 # Third Party Licenses
 
-Mimicry uses the following third-party libraries:
+Mimicry uses the following third-party libraries and dependencies.
 
-## Python Dependencies
+## Rust Dependencies (Backend)
+
+### tauri
+
+- **License**: MIT License / Apache License 2.0
+- **Copyright**: Copyright (c) Tauri Programme within The Linux Foundation
+- **Source**: https://github.com/tauri-apps/tauri
+
+Key plugins:
+- tauri-plugin-dialog (Dialog & file selection)
+- tauri-plugin-shell (Shell command execution)
+- tauri-plugin-fs (File system access)
+- tauri-plugin-opener (Open URLs/files)
+- tauri-plugin-updater (Auto-update functionality)
+- tauri-plugin-process (Process management)
+- tauri-plugin-single-instance (Single instance management)
+- tauri-plugin-window-state (Window state persistence)
+
+### rmcp (MCP Server)
+
+- **License**: Apache License 2.0 / MIT License
+- **Copyright**: Model Context Protocol participants
+- **Source**: https://github.com/anthropics/anthropic-sdk-python
+
+MCP server implementation for Claude Code integration.
+
+### serde & serde_json
+
+- **License**: MIT License / Apache License 2.0
+- **Copyright**: Copyright (c) David Tolnay
+- **Source**: https://github.com/serde-rs/serde
+
+Serialization/deserialization library for JSON and other formats.
+
+### tokio
+
+- **License**: MIT License
+- **Copyright**: Copyright (c) Tokio Contributors
+- **Source**: https://github.com/tokio-rs/tokio
+
+Async runtime for Rust.
+
+### image
+
+- **License**: MIT License / Apache License 2.0
+- **Copyright**: Copyright (c) 2014-2022 The image-rs Developers
+- **Source**: https://github.com/image-rs/image
+
+Image processing library for PNG icon handling.
+
+### objc2
+
+- **License**: MIT License
+- **Copyright**: Copyright (c) Mads Marquardt
+- **Source**: https://github.com/madsmtm/objc2
+
+Objective-C bridge for macOS system integration (NSWorkspace, NSImage, etc.).
+
+### tokio-tungstenite
+
+- **License**: Apache License 2.0 / MIT License
+- **Copyright**: Copyright (c) Snapview GmbH
+- **Source**: https://github.com/snapview/tokio-tungstenite
+
+WebSocket implementation for real-time communication.
+
+### uuid & base64
+
+- **License**: Apache License 2.0 / MIT License
+- **Source**: https://github.com/uuid-rs/uuid, https://github.com/marshallpierce/rust-base64
+
+Utility libraries for UUID generation and base64 encoding.
+
+### flate2 & regex-lite
+
+- **License**: MIT License / Apache License 2.0
+- **Source**: https://github.com/rust-lang/flate2-rs, https://github.com/BurntSushi/regex
+
+Compression and pattern matching libraries.
+
+## Python Dependencies (Backend)
 
 ### mitmproxy
 
@@ -10,29 +90,7 @@ Mimicry uses the following third-party libraries:
 - **Copyright**: Copyright (c) 2013 Aldo Cortesi
 - **Source**: https://github.com/mitmproxy/mitmproxy
 
-```
-MIT License
-
-Copyright (c) 2013 Aldo Cortesi
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+HTTP/HTTPS proxy server for request interception and mocking.
 
 ### websockets
 
@@ -40,187 +98,61 @@ SOFTWARE.
 - **Copyright**: Copyright (c) Aymeric Augustin and contributors
 - **Source**: https://github.com/python-websockets/websockets
 
-```
-BSD 3-Clause License
+WebSocket protocol implementation.
 
-Copyright (c) Aymeric Augustin and contributors.
-All rights reserved.
+## JavaScript / TypeScript Dependencies (Frontend)
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
-
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-```
-
-## Node.js Dependencies
-
-### Electron
-
-- **License**: MIT License
-- **Copyright**: Copyright (c) Electron contributors, Copyright (c) 2013-2020 GitHub Inc.
-- **Source**: https://github.com/electron/electron
-
-```
-MIT License
-
-Copyright (c) Electron contributors
-Copyright (c) 2013-2020 GitHub Inc.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-### React
+### React & React DOM
 
 - **License**: MIT License
 - **Copyright**: Copyright (c) Facebook, Inc. and its affiliates
 - **Source**: https://github.com/facebook/react
 
-```
-MIT License
+UI library and DOM rendering.
 
-Copyright (c) Facebook, Inc. and its affiliates.
+### @tauri-apps/api
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+- **License**: MIT License / Apache License 2.0
+- **Copyright**: Copyright (c) Tauri Programme within The Linux Foundation
+- **Source**: https://github.com/tauri-apps/tauri-js
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+JavaScript bindings for Tauri backend communication.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-### @modelcontextprotocol/sdk
-
-- **License**: MIT License
-- **Copyright**: Copyright (c) 2024 Anthropic, PBC
-- **Source**: https://github.com/modelcontextprotocol/typescript-sdk
-
-```
-MIT License
-
-Copyright (c) 2024 Anthropic, PBC
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-### i18next
+### i18next & react-i18next
 
 - **License**: MIT License
 - **Copyright**: Copyright (c) 2024 i18next
-- **Source**: https://github.com/i18next/i18next
+- **Source**: https://github.com/i18next/i18next, https://github.com/i18next/react-i18next
 
-```
-MIT License
+Internationalization framework for multi-language support.
 
-Copyright (c) 2024 i18next
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-### ws
+### Vite
 
 - **License**: MIT License
-- **Copyright**: Copyright (c) 2011 Einar Otto Stangvik
-- **Source**: https://github.com/websockets/ws
+- **Copyright**: Copyright (c) 2020-2023 Evan You and Vite Contributors
+- **Source**: https://github.com/vitejs/vite
 
-```
-MIT License
+Frontend build tool and development server.
 
-Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+### TailwindCSS
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+- **License**: MIT License
+- **Copyright**: Copyright (c) Tailwind Labs, Inc.
+- **Source**: https://github.com/tailwindlabs/tailwindcss
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Utility-first CSS framework for styling.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+### TypeScript
+
+- **License**: Apache License 2.0
+- **Copyright**: Copyright (c) Microsoft Corporation
+- **Source**: https://github.com/microsoft/TypeScript
+
+TypeScript compiler and language support.
+
+### valibot & qrcode.react
+
+- **License**: MIT License
+- **Source**: https://github.com/fabian-hiller/valibot, https://github.com/rosskhanas/qrcode.react
+
+Validation library and QR code component.
