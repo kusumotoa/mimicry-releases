@@ -1,11 +1,11 @@
-version: 2.1.9
+version: 3.0.0
 files:
-  - url: Mimicry-2.1.9-arm64-mac.zip
-    sha512: XGSrTnJwhf027ExgiD+0vSTLmRu2oWHxgV864uUre/6jbQqtOEo+eJBO+teL3YN98oAFG5Gj/RzTSEAgOQ2K5w==
-    size: 125263906
-  - url: Mimicry-2.1.9-arm64.dmg
-    sha512: ZBwthNUEE+omNWBSvVuf1yjc4to+1Jc/fmhMOq9OBIrY0b+sGiaIEPRF0GsP0muBrm7V4LFtEf8OAAKTelNEng==
-    size: 132344823
-path: Mimicry-2.1.9-arm64-mac.zip
-sha512: XGSrTnJwhf027ExgiD+0vSTLmRu2oWHxgV864uUre/6jbQqtOEo+eJBO+teL3YN98oAFG5Gj/RzTSEAgOQ2K5w==
-releaseDate: '2026-02-25T06:36:28.820Z'
+  - url: Mimicry.app.tar.gz
+    sha512: dGp1j5NXGxSFlUA1hKdIGUTbT78cPIki41uDa82G9Z9CzxDTVi/wqbK8dojnSbfFfGS6/hTmLCw7WArdMaOWkQ==
+    size: 40346613
+  - url: Mimicry_3.0.0_aarch64.dmg
+    sha512: jjesGr3s6F2vJRurAW4T4q0QauUGyxx3v+Qtx9gXoWGVCrixCPJK30YqOiQWTnjL9KejekUcB3Hoaa7bKBaoRw==
+    size: 42217711
+path: Mimicry.app.tar.gz
+sha512: dGp1j5NXGxSFlUA1hKdIGUTbT78cPIki41uDa82G9Z9CzxDTVi/wqbK8dojnSbfFfGS6/hTmLCw7WArdMaOWkQ==
+releaseDate: '2026-02-26T05:47:46Z'
