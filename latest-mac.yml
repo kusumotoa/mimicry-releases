@@ -1,4 +1,4 @@
-version: 3.0.6
+version: 3.1.0
 files:
   - url: Mimicry.app.tar.gz
     sha512: nMrV+b5Tynng89baPrmg/I80nOM1sNGPIjndyxZ5M/n8VKQv70ErC6FSuJcsioqRVd6i67ZxRQ8hScIPxC36pg==
@@ -8,4 +8,4 @@ files:
     size: 35652096
 path: Mimicry.app.tar.gz
 sha512: nMrV+b5Tynng89baPrmg/I80nOM1sNGPIjndyxZ5M/n8VKQv70ErC6FSuJcsioqRVd6i67ZxRQ8hScIPxC36pg==
-releaseDate: '2026-03-03T11:08:50Z'
+releaseDate: '2026-03-06T18:54:30Z'
