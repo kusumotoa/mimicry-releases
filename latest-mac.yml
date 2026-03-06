@@ -1,11 +1,11 @@
-version: 3.1.1
+version: 3.1.2
 files:
   - url: Mimicry.app.tar.gz
-    sha512: 5RHel7xj1K7idyRsuaKieFzdHJD3Hl6oU7H8lclVR8n607jjHzrA5SXQ7YAd4JaWotQTsIrBt3h4avunU8nkGQ==
-    size: 38668260
-  - url: Mimicry_3.1.1_aarch64.dmg
-    sha512: 7zcbd7uWIeVe80sEuO5hnNXi21/jYphxVFPWqaHGHRpjwutdD9gKWvR2vaMlKLzhTVJ6kDB+btuz8+WQ3qygPw==
-    size: 43908484
+    sha512: xMKK4LnyPRnf+1UdPHXMcGFn80HGm2j37+PQ23fYpLi7UkdyzJp2E67MQUfpBOSAIGbP+8nJNlAYSBfmsatUig==
+    size: 38677012
+  - url: Mimicry_3.1.2_aarch64.dmg
+    sha512: JoXtU60xkuqMvmwgF4Mbn9WdnUZm/YiGVlQqewZJ99P+0j7SMEbEiRJAoyWIGk7LaPNOPXFab+RExSKT2iGeKg==
+    size: 43926119
 path: Mimicry.app.tar.gz
-sha512: 5RHel7xj1K7idyRsuaKieFzdHJD3Hl6oU7H8lclVR8n607jjHzrA5SXQ7YAd4JaWotQTsIrBt3h4avunU8nkGQ==
-releaseDate: '2026-03-06T19:50:47Z'
+sha512: xMKK4LnyPRnf+1UdPHXMcGFn80HGm2j37+PQ23fYpLi7UkdyzJp2E67MQUfpBOSAIGbP+8nJNlAYSBfmsatUig==
+releaseDate: '2026-03-06T20:20:03Z'
