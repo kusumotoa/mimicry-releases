@@ -20,13 +20,45 @@ Key plugins:
 - tauri-plugin-single-instance (Single instance management)
 - tauri-plugin-window-state (Window state persistence)
 
-### rmcp (MCP Server)
+### hudsucker
 
-- **License**: Apache License 2.0 / MIT License
-- **Copyright**: Model Context Protocol participants
-- **Source**: https://github.com/anthropics/anthropic-sdk-python
+- **License**: Apache License 2.0
+- **Copyright**: Copyright (c) 2021 Omar Hayden
+- **Source**: https://github.com/omjadas/hudsucker
 
-MCP server implementation for Claude Code integration.
+HTTP/HTTPS proxy engine with MITM support. Core proxy implementation for traffic interception and mocking.
+
+### axum
+
+- **License**: MIT License
+- **Copyright**: Copyright (c) Tokio Contributors
+- **Source**: https://github.com/tokio-rs/axum
+
+HTTP framework for the internal REST API (CLI integration).
+
+### dashmap
+
+- **License**: MIT License
+- **Copyright**: Copyright (c) 2019 Acrimon
+- **Source**: https://github.com/xacrimon/dashmap
+
+Concurrent hash map for shared state management.
+
+### moka
+
+- **License**: MIT License / Apache License 2.0
+- **Copyright**: Copyright (c) 2021 Tatsuya Kawano
+- **Source**: https://github.com/moka-rs/moka
+
+Concurrent cache library for DNS and session caching.
+
+### tracing & tracing-subscriber
+
+- **License**: MIT License
+- **Copyright**: Copyright (c) Tokio Contributors
+- **Source**: https://github.com/tokio-rs/tracing
+
+Structured logging and diagnostics framework.
 
 ### serde & serde_json
 
@@ -60,14 +92,6 @@ Image processing library for PNG icon handling.
 
 Objective-C bridge for macOS system integration (NSWorkspace, NSImage, etc.).
 
-### tokio-tungstenite
-
-- **License**: Apache License 2.0 / MIT License
-- **Copyright**: Copyright (c) Snapview GmbH
-- **Source**: https://github.com/snapview/tokio-tungstenite
-
-WebSocket implementation for real-time communication.
-
 ### uuid & base64
 
 - **License**: Apache License 2.0 / MIT License
@@ -81,24 +105,6 @@ Utility libraries for UUID generation and base64 encoding.
 - **Source**: https://github.com/rust-lang/flate2-rs, https://github.com/BurntSushi/regex
 
 Compression and pattern matching libraries.
-
-## Python Dependencies (Backend)
-
-### mitmproxy
-
-- **License**: MIT License
-- **Copyright**: Copyright (c) 2013 Aldo Cortesi
-- **Source**: https://github.com/mitmproxy/mitmproxy
-
-HTTP/HTTPS proxy server for request interception and mocking.
-
-### websockets
-
-- **License**: BSD-3-Clause License
-- **Copyright**: Copyright (c) Aymeric Augustin and contributors
-- **Source**: https://github.com/python-websockets/websockets
-
-WebSocket protocol implementation.
 
 ## JavaScript / TypeScript Dependencies (Frontend)
 
