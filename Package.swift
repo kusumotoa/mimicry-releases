@@ -1,13 +1,10 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.1
 import PackageDescription
 
 let package = Package(
     name: "mimicry",
     platforms: [
-        .macOS(.v13)
-    ],
-    products: [
-        .executable(name: "mimicry", targets: ["mimicry"])
+        .macOS(.v15)
     ],
     targets: [
         .binaryTarget(
