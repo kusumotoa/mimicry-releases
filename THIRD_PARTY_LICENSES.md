@@ -39,7 +39,7 @@ This application directly depends on the following open source software.
 | regex-lite                   | 0.1.9   | MIT OR Apache-2.0                  | https://github.com/rust-lang/regex                   |
 | uuid                         | 1.23.4  | Apache-2.0 OR MIT                  | https://github.com/uuid-rs/uuid                      |
 | urlencoding                  | 2.1.3   | MIT                                | https://github.com/kornelski/rust_urlencoding        |
-| hudsucker                    | 0.24.1  | MIT OR Apache-2.0                  | https://github.com/omjadas/hudsucker                 |
+| hudsucker                    | 0.25.0  | MIT OR Apache-2.0                  | https://github.com/omjadas/hudsucker                 |
 | rustls                       | 0.23.41 | Apache-2.0 OR ISC OR MIT           | https://github.com/rustls/rustls                     |
 | dashmap                      | 6.2.1   | MIT                                | https://github.com/xacrimon/dashmap                  |
 | moka                         | 0.12.15 | (MIT OR Apache-2.0) AND Apache-2.0 | https://github.com/moka-rs/moka                      |
@@ -54,7 +54,7 @@ This application directly depends on the following open source software.
 | clap                         | 4.6.1   | MIT OR Apache-2.0                  | https://github.com/clap-rs/clap                      |
 | clap_complete                | 4.6.7   | MIT OR Apache-2.0                  | https://github.com/clap-rs/clap                      |
 | ureq                         | 3.3.0   | MIT OR Apache-2.0                  | https://github.com/algesten/ureq                     |
-| ulid                         | 2.0.1   | MIT                                | https://github.com/dylanhart/ulid-rs                 |
+| ulid                         | 3.0.0   | MIT                                | https://github.com/dylanhart/ulid-rs                 |
 | openh264                     | 0.9.3   | BSD-2-Clause                       | https://github.com/ralfbiedert/openh264-rs           |
 | minimp4                      | 0.1.2   | MPL-2.0                            | https://github.com/darkskygit/minimp4.rs             |
 | rquickjs                     | 0.12.0  | MIT                                | https://github.com/DelSkayn/rquickjs.git             |
