@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 63, npm runtime dependencies: 21)
+(Rust direct dependencies: 61, npm runtime dependencies: 21)
 
 ## Rust (Cargo) Dependencies
 
@@ -33,7 +33,7 @@ This application directly depends on the following open source software.
 | zstd                         | 0.13.3  | MIT                                | https://github.com/gyscos/zstd-rs                    |
 | zip                          | 8.6.0   | MIT                                | https://github.com/zip-rs/zip2                       |
 | image                        | 0.25.10 | MIT OR Apache-2.0                  | https://github.com/image-rs/image                    |
-| base64                       | 0.22.1  | MIT OR Apache-2.0                  | https://github.com/marshallpierce/rust-base64        |
+| base64                       | 0.23.0  | MIT OR Apache-2.0                  | https://github.com/marshallpierce/rust-base64        |
 | dirs                         | 6.0.0   | MIT OR Apache-2.0                  | https://github.com/soc/dirs-rs                       |
 | axum                         | 0.8.9   | MIT                                | https://github.com/tokio-rs/axum                     |
 | regex-lite                   | 0.1.9   | MIT OR Apache-2.0                  | https://github.com/rust-lang/regex                   |
@@ -55,8 +55,6 @@ This application directly depends on the following open source software.
 | clap_complete                | 4.6.7   | MIT OR Apache-2.0                  | https://github.com/clap-rs/clap                      |
 | ureq                         | 3.3.0   | MIT OR Apache-2.0                  | https://github.com/algesten/ureq                     |
 | ulid                         | 3.0.0   | MIT                                | https://github.com/dylanhart/ulid-rs                 |
-| openh264                     | 0.9.3   | BSD-2-Clause                       | https://github.com/ralfbiedert/openh264-rs           |
-| minimp4                      | 0.1.2   | MPL-2.0                            | https://github.com/darkskygit/minimp4.rs             |
 | rquickjs                     | 0.12.0  | MIT                                | https://github.com/DelSkayn/rquickjs.git             |
 | thiserror                    | 2.0.18  | MIT OR Apache-2.0                  | https://github.com/dtolnay/thiserror                 |
 | anyhow                       | 1.0.103 | MIT OR Apache-2.0                  | https://github.com/dtolnay/anyhow                    |
