@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 61, npm runtime dependencies: 21)
+(Rust direct dependencies: 61, npm runtime dependencies: 20)
 
 ## Rust (Cargo) Dependencies
 
@@ -81,7 +81,6 @@ This application directly depends on the following open source software.
 | @codemirror/theme-one-dark  | 6.1.3   | MIT               | https://github.com/codemirror/theme-one-dark.git  |
 | @codemirror/view            | 6.43.0  | MIT               | https://code.haverbeke.berlin/codemirror/view.git |
 | @headlessui/react           | 2.2.10  | MIT               | https://github.com/tailwindlabs/headlessui.git    |
-| @polar-sh/checkout          | 0.4.0   | Apache-2.0        | https://github.com/polarsource/polar.git          |
 | @tanstack/react-virtual     | 3.13.23 | MIT               | https://github.com/TanStack/virtual.git           |
 | @tauri-apps/api             | 2.11.0  | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri.git           |
 | @tauri-apps/plugin-dialog   | 2.7.1   | MIT OR Apache-2.0 | https://github.com/tauri-apps/plugins-workspace   |
