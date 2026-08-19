@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 61, npm runtime dependencies: 20)
+(Rust direct dependencies: 56, npm runtime dependencies: 20)
 
 ## Rust (Cargo) Dependencies
 
@@ -21,12 +21,9 @@ This application directly depends on the following open source software.
 | serde                        | 1.0.228 | MIT OR Apache-2.0                  | https://github.com/serde-rs/serde                    |
 | serde_json                   | 1.0.150 | MIT OR Apache-2.0                  | https://github.com/serde-rs/json                     |
 | json5                        | 1.3.1   | MIT                                | https://github.com/callum-oakley/json5-rs            |
-| apollo-parser                | 0.8.6   | MIT OR Apache-2.0                  | https://github.com/apollographql/apollo-rs           |
 | lru                          | 0.18.0  | MIT                                | https://github.com/jeromefroe/lru-rs.git             |
-| memchr                       | 2.8.2   | Unlicense OR MIT                   | https://github.com/BurntSushi/memchr                 |
 | futures-util                 | 0.3.32  | MIT OR Apache-2.0                  | https://github.com/rust-lang/futures-rs              |
 | tokio                        | 1.52.3  | MIT                                | https://github.com/tokio-rs/tokio                    |
-| tokio-util                   | 0.7.18  | MIT                                | https://github.com/tokio-rs/tokio                    |
 | bytes                        | 1.12.0  | MIT                                | https://github.com/tokio-rs/bytes                    |
 | flate2                       | 1.1.9   | MIT OR Apache-2.0                  | https://github.com/rust-lang/flate2-rs               |
 | brotli                       | 8.0.4   | BSD-3-Clause AND MIT               | https://github.com/dropbox/rust-brotli               |
@@ -47,7 +44,6 @@ This application directly depends on the following open source software.
 | http                         | 1.4.2   | MIT OR Apache-2.0                  | https://github.com/hyperium/http                     |
 | tracing                      | 0.1.44  | MIT                                | https://github.com/tokio-rs/tracing                  |
 | tracing-subscriber           | 0.3.23  | MIT                                | https://github.com/tokio-rs/tracing                  |
-| glob                         | 0.3.3   | MIT OR Apache-2.0                  | https://github.com/rust-lang/glob                    |
 | sys-locale                   | 0.3.2   | MIT OR Apache-2.0                  | https://github.com/1Password/sys-locale              |
 | time                         | 0.3.53  | MIT OR Apache-2.0                  | https://github.com/time-rs/time                      |
 | http-body-util               | 0.1.3   | MIT                                | https://github.com/hyperium/http-body                |
@@ -57,7 +53,6 @@ This application directly depends on the following open source software.
 | ulid                         | 3.0.0   | MIT                                | https://github.com/dylanhart/ulid-rs                 |
 | rquickjs                     | 0.12.0  | MIT                                | https://github.com/DelSkayn/rquickjs.git             |
 | thiserror                    | 2.0.18  | MIT OR Apache-2.0                  | https://github.com/dtolnay/thiserror                 |
-| anyhow                       | 1.0.103 | MIT OR Apache-2.0                  | https://github.com/dtolnay/anyhow                    |
 | sha2                         | 0.10.9  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
 | sha1                         | 0.10.6  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
 | x509-parser                  | 0.18.1  | MIT OR Apache-2.0                  | https://github.com/rusticata/x509-parser.git         |
