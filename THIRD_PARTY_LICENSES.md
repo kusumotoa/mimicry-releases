@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 56, npm runtime dependencies: 20)
+(Rust direct dependencies: 59, npm runtime dependencies: 20)
 
 ## Rust (Cargo) Dependencies
 
@@ -55,14 +55,17 @@ This application directly depends on the following open source software.
 | thiserror                    | 2.0.18  | MIT OR Apache-2.0                  | https://github.com/dtolnay/thiserror                 |
 | sha2                         | 0.10.9  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
 | sha1                         | 0.10.6  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
+| md-5                         | 0.11.0  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
 | x509-parser                  | 0.18.1  | MIT OR Apache-2.0                  | https://github.com/rusticata/x509-parser.git         |
+| rmcp                         | 3.2.0   | Apache-2.0                         | https://github.com/modelcontextprotocol/rust-sdk/    |
+| schemars                     | 1.2.1   | MIT                                | https://github.com/GREsau/schemars                   |
 | objc2                        | 0.6.4   | MIT                                | https://github.com/madsmtm/objc2                     |
 | objc2-app-kit                | 0.3.2   | Zlib OR Apache-2.0 OR MIT          | https://github.com/madsmtm/objc2                     |
 | objc2-foundation             | 0.3.2   | MIT                                | https://github.com/madsmtm/objc2                     |
 | security-framework           | 3.7.0   | MIT OR Apache-2.0                  | https://github.com/kornelski/rust-security-framework |
 | security-framework-sys       | 2.17.0  | MIT OR Apache-2.0                  | https://github.com/kornelski/rust-security-framework |
 | core-foundation              | 0.10.1  | MIT OR Apache-2.0                  | https://github.com/servo/core-foundation-rs          |
-| system-configuration         | 0.7.0   | MIT OR Apache-2.0                  | https://github.com/mullvad/system-configuration-rs   |
+| system-configuration         | 0.8.0   | MIT OR Apache-2.0                  | https://github.com/mullvad/system-configuration-rs   |
 | libproc                      | 0.14.11 | MIT                                | https://github.com/andrewdavidmackenzie/libproc-rs   |
 | libc                         | 0.2.186 | MIT OR Apache-2.0                  | https://github.com/rust-lang/libc                    |
 
