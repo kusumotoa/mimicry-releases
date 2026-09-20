@@ -1,11 +1,11 @@
-version: 7.3.7
+version: 7.3.8
 files:
   - url: Mimicry.app.tar.gz
-    sha512: le2RbOepOk2DakF0s5Nx6wyQDE99k1L60/8R26IAuEXAexGBpowERpjdBZEZOypKGshd4J0HG4EFF4cZP3Nsnw==
-    size: 7911607
-  - url: Mimicry_7.3.7_aarch64.dmg
-    sha512: bKTssjqmQ5+IQGncCzGvbdHnFaWzJ/2GGrrxhbzcr+AxocSRtErpnyW4DSWQuROGO6co1xhoztjLpkL8JxFCOQ==
-    size: 8217034
+    sha512: yDNY/rBHCFpQB183JEK7kTvgKlUB6yR9s5F17FZrqbLwGc5drlzhUpuFyQaM8PcHk8A1BnrQ/ezsPCMyyZbMCQ==
+    size: 7920543
+  - url: Mimicry_7.3.8_aarch64.dmg
+    sha512: PIOluVeJ0nZ4mNGjJIYL9Btc4MJBYZj4cSgmTkns5ivwQokFRvV4xvqZeUKH+zA4mcRbqqJ7swemafkmUnZMYA==
+    size: 8225772
 path: Mimicry.app.tar.gz
-sha512: le2RbOepOk2DakF0s5Nx6wyQDE99k1L60/8R26IAuEXAexGBpowERpjdBZEZOypKGshd4J0HG4EFF4cZP3Nsnw==
-releaseDate: '2026-09-20T02:18:51Z'
+sha512: yDNY/rBHCFpQB183JEK7kTvgKlUB6yR9s5F17FZrqbLwGc5drlzhUpuFyQaM8PcHk8A1BnrQ/ezsPCMyyZbMCQ==
+releaseDate: '2026-09-20T17:45:18Z'
