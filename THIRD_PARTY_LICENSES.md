@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 59, npm runtime dependencies: 20)
+(Rust direct dependencies: 60, npm runtime dependencies: 20)
 
 ## Rust (Cargo) Dependencies
 
@@ -51,12 +51,13 @@ This application directly depends on the following open source software.
 | clap_complete                | 4.6.7   | MIT OR Apache-2.0                  | https://github.com/clap-rs/clap                      |
 | ureq                         | 3.3.0   | MIT OR Apache-2.0                  | https://github.com/algesten/ureq                     |
 | ulid                         | 3.0.0   | MIT                                | https://github.com/dylanhart/ulid-rs                 |
-| rquickjs                     | 0.12.0  | MIT                                | https://github.com/DelSkayn/rquickjs.git             |
+| rquickjs                     | 0.13.0  | MIT                                | https://github.com/DelSkayn/rquickjs.git             |
 | thiserror                    | 2.0.18  | MIT OR Apache-2.0                  | https://github.com/dtolnay/thiserror                 |
 | sha2                         | 0.10.9  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
 | sha1                         | 0.10.6  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
 | md-5                         | 0.11.0  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
 | x509-parser                  | 0.18.1  | MIT OR Apache-2.0                  | https://github.com/rusticata/x509-parser.git         |
+| memchr                       | 2.8.2   | Unlicense OR MIT                   | https://github.com/BurntSushi/memchr                 |
 | rmcp                         | 3.2.0   | Apache-2.0                         | https://github.com/modelcontextprotocol/rust-sdk/    |
 | schemars                     | 1.2.1   | MIT                                | https://github.com/GREsau/schemars                   |
 | objc2                        | 0.6.4   | MIT                                | https://github.com/madsmtm/objc2                     |
