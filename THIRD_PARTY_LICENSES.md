@@ -51,7 +51,7 @@ This application directly depends on the following open source software.
 | clap_complete                | 4.6.7   | MIT OR Apache-2.0                  | https://github.com/clap-rs/clap                      |
 | ureq                         | 3.3.0   | MIT OR Apache-2.0                  | https://github.com/algesten/ureq                     |
 | ulid                         | 3.0.0   | MIT                                | https://github.com/dylanhart/ulid-rs                 |
-| rquickjs                     | 0.13.0  | MIT                                | https://github.com/DelSkayn/rquickjs.git             |
+| rquickjs                     | 0.14.0  | MIT                                | https://github.com/DelSkayn/rquickjs.git             |
 | thiserror                    | 2.0.18  | MIT OR Apache-2.0                  | https://github.com/dtolnay/thiserror                 |
 | sha2                         | 0.10.9  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
 | sha1                         | 0.10.6  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
