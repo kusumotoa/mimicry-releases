@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 60, npm runtime dependencies: 20)
+(Rust direct dependencies: 57, npm runtime dependencies: 20)
 
 ## Rust (Cargo) Dependencies
 
@@ -11,11 +11,8 @@ This application directly depends on the following open source software.
 | ---------------------------- | ------- | ---------------------------------- | ---------------------------------------------------- |
 | tauri                        | 2.11.5  | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/tauri                  |
 | tauri-plugin-dialog          | 2.7.1   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
-| tauri-plugin-shell           | 2.3.5   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
-| tauri-plugin-fs              | 2.5.1   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
 | tauri-plugin-opener          | 2.5.4   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
 | tauri-plugin-updater         | 2.10.1  | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
-| tauri-plugin-process         | 2.3.1   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
 | tauri-plugin-single-instance | 2.4.2   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
 | tauri-plugin-window-state    | 2.4.1   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
 | serde                        | 1.0.228 | MIT OR Apache-2.0                  | https://github.com/serde-rs/serde                    |
