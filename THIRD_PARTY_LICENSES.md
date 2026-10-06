@@ -18,7 +18,7 @@ This application directly depends on the following open source software.
 | serde                        | 1.0.228 | MIT OR Apache-2.0                  | https://github.com/serde-rs/serde                    |
 | serde_json                   | 1.0.150 | MIT OR Apache-2.0                  | https://github.com/serde-rs/json                     |
 | json5                        | 1.3.1   | MIT                                | https://github.com/callum-oakley/json5-rs            |
-| lru                          | 0.18.0  | MIT                                | https://github.com/jeromefroe/lru-rs.git             |
+| lru                          | 0.18.5  | MIT                                | https://github.com/jeromefroe/lru-rs.git             |
 | futures-util                 | 0.3.32  | MIT OR Apache-2.0                  | https://github.com/rust-lang/futures-rs              |
 | tokio                        | 1.52.3  | MIT                                | https://github.com/tokio-rs/tokio                    |
 | bytes                        | 1.12.0  | MIT                                | https://github.com/tokio-rs/bytes                    |
@@ -34,7 +34,7 @@ This application directly depends on the following open source software.
 | uuid                         | 1.23.4  | Apache-2.0 OR MIT                  | https://github.com/uuid-rs/uuid                      |
 | urlencoding                  | 2.1.3   | MIT                                | https://github.com/kornelski/rust_urlencoding        |
 | hudsucker                    | 0.25.0  | MIT OR Apache-2.0                  | https://github.com/omjadas/hudsucker                 |
-| rustls                       | 0.23.41 | Apache-2.0 OR ISC OR MIT           | https://github.com/rustls/rustls                     |
+| rustls                       | 0.23.45 | Apache-2.0 OR ISC OR MIT           | https://github.com/rustls/rustls                     |
 | dashmap                      | 6.2.1   | MIT                                | https://github.com/xacrimon/dashmap                  |
 | moka                         | 0.12.15 | (MIT OR Apache-2.0) AND Apache-2.0 | https://github.com/moka-rs/moka                      |
 | rand                         | 0.10.2  | MIT OR Apache-2.0                  | https://github.com/rust-random/rand                  |
@@ -81,13 +81,13 @@ This application directly depends on the following open source software.
 | @tauri-apps/api             | 2.11.0  | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri.git            |
 | @tauri-apps/plugin-dialog   | 2.7.1   | MIT OR Apache-2.0 | https://github.com/tauri-apps/plugins-workspace    |
 | comment-json                | 5.0.0   | MIT               | https://github.com/kaelzhang/node-comment-json.git |
-| fflate                      | 0.8.2   | MIT               | https://github.com/101arrowz/fflate                |
+| fflate                      | 0.8.3   | MIT               | https://github.com/101arrowz/fflate                |
 | i18next                     | 26.2.0  | MIT               | https://github.com/i18next/i18next.git             |
-| js-yaml                     | 5.2.1   | MIT               | https://github.com/nodeca/js-yaml                  |
+| js-yaml                     | 5.4.2   | MIT               | https://github.com/nodeca/js-yaml                  |
 | json5                       | 2.2.3   | MIT               | https://github.com/json5/json5.git                 |
 | qrcode.react                | 4.2.0   | ISC               | https://github.com/zpao/qrcode.react.git           |
 | react                       | 19.2.6  | MIT               | https://github.com/facebook/react.git              |
 | react-dom                   | 19.2.6  | MIT               | https://github.com/facebook/react.git              |
 | react-i18next               | 17.0.8  | MIT               | https://github.com/i18next/react-i18next.git       |
 | uuid                        | 14.0.0  | MIT               | https://github.com/uuidjs/uuid.git                 |
-| valibot                     | 1.2.0   | MIT               | https://github.com/open-circle/valibot             |
+| valibot                     | 1.5.0   | MIT               | https://github.com/open-circle/valibot             |
