@@ -69,25 +69,25 @@ This application directly depends on the following open source software.
 
 ## JavaScript/TypeScript (npm) Dependencies
 
-| Name                        | Version | License           | Repository                                         |
-| --------------------------- | ------- | ----------------- | -------------------------------------------------- |
-| @codemirror/commands        | 6.10.3  | MIT               | https://github.com/codemirror/commands.git         |
-| @codemirror/lang-javascript | 6.2.5   | MIT               | https://github.com/codemirror/lang-javascript.git  |
-| @codemirror/state           | 6.6.0   | MIT               | https://github.com/codemirror/state.git            |
-| @codemirror/theme-one-dark  | 6.1.3   | MIT               | https://github.com/codemirror/theme-one-dark.git   |
-| @codemirror/view            | 6.43.0  | MIT               | https://code.haverbeke.berlin/codemirror/view.git  |
-| @headlessui/react           | 2.2.10  | MIT               | https://github.com/tailwindlabs/headlessui.git     |
-| @tanstack/react-virtual     | 3.13.23 | MIT               | https://github.com/TanStack/virtual.git            |
-| @tauri-apps/api             | 2.11.0  | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri.git            |
-| @tauri-apps/plugin-dialog   | 2.7.1   | MIT OR Apache-2.0 | https://github.com/tauri-apps/plugins-workspace    |
-| comment-json                | 5.0.0   | MIT               | https://github.com/kaelzhang/node-comment-json.git |
-| fflate                      | 0.8.3   | MIT               | https://github.com/101arrowz/fflate                |
-| i18next                     | 26.2.0  | MIT               | https://github.com/i18next/i18next.git             |
-| js-yaml                     | 5.4.2   | MIT               | https://github.com/nodeca/js-yaml                  |
-| json5                       | 2.2.3   | MIT               | https://github.com/json5/json5.git                 |
-| qrcode.react                | 4.2.0   | ISC               | https://github.com/zpao/qrcode.react.git           |
-| react                       | 19.2.6  | MIT               | https://github.com/facebook/react.git              |
-| react-dom                   | 19.2.6  | MIT               | https://github.com/facebook/react.git              |
-| react-i18next               | 17.0.8  | MIT               | https://github.com/i18next/react-i18next.git       |
-| uuid                        | 14.0.0  | MIT               | https://github.com/uuidjs/uuid.git                 |
-| valibot                     | 1.5.0   | MIT               | https://github.com/open-circle/valibot             |
+| Name                        | Version | License           | Repository                                            |
+| --------------------------- | ------- | ----------------- | ----------------------------------------------------- |
+| @codemirror/commands        | 6.11.1  | MIT               | https://code.haverbeke.berlin/codemirror/commands.git |
+| @codemirror/lang-javascript | 6.2.5   | MIT               | https://github.com/codemirror/lang-javascript.git     |
+| @codemirror/state           | 6.7.6   | MIT               | https://code.haverbeke.berlin/codemirror/state.git    |
+| @codemirror/theme-one-dark  | 6.1.3   | MIT               | https://github.com/codemirror/theme-one-dark.git      |
+| @codemirror/view            | 6.43.13 | MIT               | https://code.haverbeke.berlin/codemirror/view.git     |
+| @headlessui/react           | 2.2.10  | MIT               | https://github.com/tailwindlabs/headlessui.git        |
+| @tanstack/react-virtual     | 3.14.13 | MIT               | https://github.com/TanStack/virtual.git               |
+| @tauri-apps/api             | 2.11.1  | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri.git               |
+| @tauri-apps/plugin-dialog   | 2.7.3   | MIT OR Apache-2.0 | https://github.com/tauri-apps/plugins-workspace       |
+| comment-json                | 5.0.0   | MIT               | https://github.com/kaelzhang/node-comment-json.git    |
+| fflate                      | 0.8.3   | MIT               | https://github.com/101arrowz/fflate                   |
+| i18next                     | 26.4.2  | MIT               | https://github.com/i18next/i18next.git                |
+| js-yaml                     | 5.4.2   | MIT               | https://github.com/nodeca/js-yaml                     |
+| json5                       | 2.2.3   | MIT               | https://github.com/json5/json5.git                    |
+| qrcode.react                | 4.2.0   | ISC               | https://github.com/zpao/qrcode.react.git              |
+| react                       | 19.3.0  | MIT               | https://github.com/react/react.git                    |
+| react-dom                   | 19.3.0  | MIT               | https://github.com/react/react.git                    |
+| react-i18next               | 17.0.15 | MIT               | https://github.com/i18next/react-i18next.git          |
+| uuid                        | 14.0.2  | MIT               | https://github.com/uuidjs/uuid.git                    |
+| valibot                     | 1.5.0   | MIT               | https://github.com/open-circle/valibot                |
