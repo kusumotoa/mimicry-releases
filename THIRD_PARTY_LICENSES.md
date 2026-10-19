@@ -25,7 +25,7 @@ This application directly depends on the following open source software.
 | flate2                       | 1.1.9   | MIT OR Apache-2.0                  | https://github.com/rust-lang/flate2-rs               |
 | brotli                       | 9.0.0   | BSD-3-Clause AND MIT               | https://github.com/dropbox/rust-brotli               |
 | zstd                         | 0.14.0  | BSD-3-Clause                       | https://github.com/gyscos/zstd-rs                    |
-| zip                          | 8.6.0   | MIT                                | https://github.com/zip-rs/zip2                       |
+| zip                          | 9.0.5   | MIT                                | https://github.com/zip-rs/zip2                       |
 | image                        | 0.25.10 | MIT OR Apache-2.0                  | https://github.com/image-rs/image                    |
 | base64                       | 0.23.0  | MIT OR Apache-2.0                  | https://github.com/marshallpierce/rust-base64        |
 | dirs                         | 7.0.0   | MIT OR Apache-2.0                  | https://codeberg.org/dirs/dirs-rs                    |
