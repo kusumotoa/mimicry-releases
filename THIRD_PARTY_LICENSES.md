@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 57, npm runtime dependencies: 20)
+(Rust direct dependencies: 61, npm runtime dependencies: 21)
 
 ## Rust (Cargo) Dependencies
 
@@ -35,6 +35,8 @@ This application directly depends on the following open source software.
 | urlencoding                  | 2.1.3   | MIT                                | https://github.com/kornelski/rust_urlencoding        |
 | hudsucker                    | 0.25.0  | MIT OR Apache-2.0                  | https://github.com/omjadas/hudsucker                 |
 | rustls                       | 0.23.45 | Apache-2.0 OR ISC OR MIT           | https://github.com/rustls/rustls                     |
+| tokio-rustls                 | 0.26.4  | MIT OR Apache-2.0                  | https://github.com/rustls/tokio-rustls               |
+| hyper-rustls                 | 0.27.9  | Apache-2.0 OR ISC OR MIT           | https://github.com/rustls/hyper-rustls               |
 | dashmap                      | 6.2.1   | MIT                                | https://github.com/xacrimon/dashmap                  |
 | moka                         | 0.12.15 | (MIT OR Apache-2.0) AND Apache-2.0 | https://github.com/moka-rs/moka                      |
 | rand                         | 0.10.2  | MIT OR Apache-2.0                  | https://github.com/rust-random/rand                  |
@@ -57,6 +59,8 @@ This application directly depends on the following open source software.
 | memchr                       | 2.8.2   | Unlicense OR MIT                   | https://github.com/BurntSushi/memchr                 |
 | rmcp                         | 3.2.0   | Apache-2.0                         | https://github.com/modelcontextprotocol/rust-sdk/    |
 | schemars                     | 1.2.1   | MIT                                | https://github.com/GREsau/schemars                   |
+| boringtun                    | 0.7.1   | BSD-3-Clause                       | https://github.com/cloudflare/boringtun              |
+| smoltcp                      | 0.14.0  | 0BSD                               | https://github.com/smoltcp-rs/smoltcp.git            |
 | objc2                        | 0.6.4   | MIT                                | https://github.com/madsmtm/objc2                     |
 | objc2-app-kit                | 0.3.2   | Zlib OR Apache-2.0 OR MIT          | https://github.com/madsmtm/objc2                     |
 | objc2-foundation             | 0.3.2   | MIT                                | https://github.com/madsmtm/objc2                     |
@@ -89,5 +93,6 @@ This application directly depends on the following open source software.
 | react                       | 19.3.0  | MIT               | https://github.com/react/react.git                    |
 | react-dom                   | 19.3.0  | MIT               | https://github.com/react/react.git                    |
 | react-i18next               | 17.0.15 | MIT               | https://github.com/i18next/react-i18next.git          |
+| uqr                         | 0.1.3   | MIT               | https://github.com/unjs/uqr.git                       |
 | uuid                        | 14.0.2  | MIT               | https://github.com/uuidjs/uuid.git                    |
 | valibot                     | 1.5.0   | MIT               | https://github.com/open-circle/valibot                |
