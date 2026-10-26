@@ -3,73 +3,75 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 61, npm runtime dependencies: 21)
+(Rust direct dependencies: 63, npm runtime dependencies: 21)
 
 ## Rust (Cargo) Dependencies
 
-| Name                         | Version | License                            | Repository                                           |
-| ---------------------------- | ------- | ---------------------------------- | ---------------------------------------------------- |
-| tauri                        | 2.11.5  | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/tauri                  |
-| tauri-plugin-dialog          | 2.7.1   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
-| tauri-plugin-opener          | 2.5.4   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
-| tauri-plugin-updater         | 2.10.1  | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
-| tauri-plugin-single-instance | 2.4.2   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
-| tauri-plugin-window-state    | 2.4.1   | Apache-2.0 OR MIT                  | https://github.com/tauri-apps/plugins-workspace      |
-| serde                        | 1.0.228 | MIT OR Apache-2.0                  | https://github.com/serde-rs/serde                    |
-| serde_json                   | 1.0.150 | MIT OR Apache-2.0                  | https://github.com/serde-rs/json                     |
-| json5                        | 1.3.1   | MIT                                | https://github.com/callum-oakley/json5-rs            |
-| lru                          | 0.18.5  | MIT                                | https://github.com/jeromefroe/lru-rs.git             |
-| futures-util                 | 0.3.32  | MIT OR Apache-2.0                  | https://github.com/rust-lang/futures-rs              |
-| tokio                        | 1.52.3  | MIT                                | https://github.com/tokio-rs/tokio                    |
-| bytes                        | 1.12.0  | MIT                                | https://github.com/tokio-rs/bytes                    |
-| flate2                       | 1.1.9   | MIT OR Apache-2.0                  | https://github.com/rust-lang/flate2-rs               |
-| brotli                       | 9.0.0   | BSD-3-Clause AND MIT               | https://github.com/dropbox/rust-brotli               |
-| zstd                         | 0.14.0  | BSD-3-Clause                       | https://github.com/gyscos/zstd-rs                    |
-| zip                          | 9.0.5   | MIT                                | https://github.com/zip-rs/zip2                       |
-| image                        | 0.25.10 | MIT OR Apache-2.0                  | https://github.com/image-rs/image                    |
-| base64                       | 0.23.0  | MIT OR Apache-2.0                  | https://github.com/marshallpierce/rust-base64        |
-| dirs                         | 7.0.0   | MIT OR Apache-2.0                  | https://codeberg.org/dirs/dirs-rs                    |
-| axum                         | 0.8.9   | MIT                                | https://github.com/tokio-rs/axum                     |
-| regex-lite                   | 0.1.9   | MIT OR Apache-2.0                  | https://github.com/rust-lang/regex                   |
-| uuid                         | 1.23.4  | Apache-2.0 OR MIT                  | https://github.com/uuid-rs/uuid                      |
-| urlencoding                  | 2.1.3   | MIT                                | https://github.com/kornelski/rust_urlencoding        |
-| hudsucker                    | 0.25.0  | MIT OR Apache-2.0                  | https://github.com/omjadas/hudsucker                 |
-| rustls                       | 0.23.45 | Apache-2.0 OR ISC OR MIT           | https://github.com/rustls/rustls                     |
-| tokio-rustls                 | 0.26.4  | MIT OR Apache-2.0                  | https://github.com/rustls/tokio-rustls               |
-| hyper-rustls                 | 0.27.9  | Apache-2.0 OR ISC OR MIT           | https://github.com/rustls/hyper-rustls               |
-| dashmap                      | 6.2.1   | MIT                                | https://github.com/xacrimon/dashmap                  |
-| moka                         | 0.12.15 | (MIT OR Apache-2.0) AND Apache-2.0 | https://github.com/moka-rs/moka                      |
-| rand                         | 0.10.2  | MIT OR Apache-2.0                  | https://github.com/rust-random/rand                  |
-| http                         | 1.4.2   | MIT OR Apache-2.0                  | https://github.com/hyperium/http                     |
-| tracing                      | 0.1.44  | MIT                                | https://github.com/tokio-rs/tracing                  |
-| tracing-subscriber           | 0.3.23  | MIT                                | https://github.com/tokio-rs/tracing                  |
-| sys-locale                   | 0.3.2   | MIT OR Apache-2.0                  | https://github.com/1Password/sys-locale              |
-| time                         | 0.3.53  | MIT OR Apache-2.0                  | https://github.com/time-rs/time                      |
-| http-body-util               | 0.1.3   | MIT                                | https://github.com/hyperium/http-body                |
-| clap                         | 4.6.1   | MIT OR Apache-2.0                  | https://github.com/clap-rs/clap                      |
-| clap_complete                | 4.6.7   | MIT OR Apache-2.0                  | https://github.com/clap-rs/clap                      |
-| ureq                         | 3.3.0   | MIT OR Apache-2.0                  | https://github.com/algesten/ureq                     |
-| ulid                         | 3.0.0   | MIT                                | https://github.com/dylanhart/ulid-rs                 |
-| rquickjs                     | 0.14.0  | MIT                                | https://github.com/DelSkayn/rquickjs.git             |
-| thiserror                    | 2.0.18  | MIT OR Apache-2.0                  | https://github.com/dtolnay/thiserror                 |
-| sha2                         | 0.10.9  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
-| sha1                         | 0.10.6  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
-| md-5                         | 0.11.0  | MIT OR Apache-2.0                  | https://github.com/RustCrypto/hashes                 |
-| x509-parser                  | 0.18.1  | MIT OR Apache-2.0                  | https://github.com/rusticata/x509-parser.git         |
-| memchr                       | 2.8.2   | Unlicense OR MIT                   | https://github.com/BurntSushi/memchr                 |
-| rmcp                         | 3.2.0   | Apache-2.0                         | https://github.com/modelcontextprotocol/rust-sdk/    |
-| schemars                     | 1.2.1   | MIT                                | https://github.com/GREsau/schemars                   |
-| boringtun                    | 0.7.1   | BSD-3-Clause                       | https://github.com/cloudflare/boringtun              |
-| smoltcp                      | 0.14.0  | 0BSD                               | https://github.com/smoltcp-rs/smoltcp.git            |
-| objc2                        | 0.6.4   | MIT                                | https://github.com/madsmtm/objc2                     |
-| objc2-app-kit                | 0.3.2   | Zlib OR Apache-2.0 OR MIT          | https://github.com/madsmtm/objc2                     |
-| objc2-foundation             | 0.3.2   | MIT                                | https://github.com/madsmtm/objc2                     |
-| security-framework           | 3.7.0   | MIT OR Apache-2.0                  | https://github.com/kornelski/rust-security-framework |
-| security-framework-sys       | 2.17.0  | MIT OR Apache-2.0                  | https://github.com/kornelski/rust-security-framework |
-| core-foundation              | 0.10.1  | MIT OR Apache-2.0                  | https://github.com/servo/core-foundation-rs          |
-| system-configuration         | 0.8.0   | MIT OR Apache-2.0                  | https://github.com/mullvad/system-configuration-rs   |
-| libproc                      | 0.14.11 | MIT                                | https://github.com/andrewdavidmackenzie/libproc-rs   |
-| libc                         | 0.2.186 | MIT OR Apache-2.0                  | https://github.com/rust-lang/libc                    |
+| Name                         | Version | License                              | Repository                                           |
+| ---------------------------- | ------- | ------------------------------------ | ---------------------------------------------------- |
+| tauri                        | 2.11.5  | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/tauri                  |
+| tauri-plugin-dialog          | 2.7.1   | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
+| tauri-plugin-opener          | 2.5.4   | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
+| tauri-plugin-updater         | 2.10.1  | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
+| tauri-plugin-single-instance | 2.4.2   | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
+| tauri-plugin-window-state    | 2.4.1   | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
+| serde                        | 1.0.228 | MIT OR Apache-2.0                    | https://github.com/serde-rs/serde                    |
+| serde_json                   | 1.0.150 | MIT OR Apache-2.0                    | https://github.com/serde-rs/json                     |
+| json5                        | 1.3.1   | MIT                                  | https://github.com/callum-oakley/json5-rs            |
+| lru                          | 0.19.0  | MIT                                  | https://github.com/jeromefroe/lru-rs.git             |
+| futures-util                 | 0.3.32  | MIT OR Apache-2.0                    | https://github.com/rust-lang/futures-rs              |
+| tokio                        | 1.52.3  | MIT                                  | https://github.com/tokio-rs/tokio                    |
+| bytes                        | 1.12.0  | MIT                                  | https://github.com/tokio-rs/bytes                    |
+| flate2                       | 1.1.9   | MIT OR Apache-2.0                    | https://github.com/rust-lang/flate2-rs               |
+| brotli                       | 8.0.4   | BSD-3-Clause AND MIT                 | https://github.com/dropbox/rust-brotli               |
+| zstd                         | 0.14.0  | BSD-3-Clause                         | https://github.com/gyscos/zstd-rs                    |
+| zip                          | 9.0.5   | MIT                                  | https://github.com/zip-rs/zip2                       |
+| image                        | 0.25.10 | MIT OR Apache-2.0                    | https://github.com/image-rs/image                    |
+| base64                       | 0.23.0  | MIT OR Apache-2.0                    | https://github.com/marshallpierce/rust-base64        |
+| dirs                         | 6.0.0   | MIT OR Apache-2.0                    | https://github.com/soc/dirs-rs                       |
+| axum                         | 0.8.9   | MIT                                  | https://github.com/tokio-rs/axum                     |
+| regex-lite                   | 0.1.9   | MIT OR Apache-2.0                    | https://github.com/rust-lang/regex                   |
+| uuid                         | 1.23.4  | Apache-2.0 OR MIT                    | https://github.com/uuid-rs/uuid                      |
+| urlencoding                  | 2.1.3   | MIT                                  | https://github.com/kornelski/rust_urlencoding        |
+| encoding_rs                  | 0.8.35  | (Apache-2.0 OR MIT) AND BSD-3-Clause | https://github.com/hsivonen/encoding_rs              |
+| hudsucker                    | 0.25.0  | MIT OR Apache-2.0                    | https://github.com/omjadas/hudsucker                 |
+| rustls                       | 0.23.45 | Apache-2.0 OR ISC OR MIT             | https://github.com/rustls/rustls                     |
+| tokio-rustls                 | 0.26.4  | MIT OR Apache-2.0                    | https://github.com/rustls/tokio-rustls               |
+| hyper-rustls                 | 0.27.9  | Apache-2.0 OR ISC OR MIT             | https://github.com/rustls/hyper-rustls               |
+| socket2                      | 0.6.4   | MIT OR Apache-2.0                    | https://github.com/rust-lang/socket2                 |
+| dashmap                      | 6.2.1   | MIT                                  | https://github.com/xacrimon/dashmap                  |
+| moka                         | 0.12.15 | (MIT OR Apache-2.0) AND Apache-2.0   | https://github.com/moka-rs/moka                      |
+| rand                         | 0.10.2  | MIT OR Apache-2.0                    | https://github.com/rust-random/rand                  |
+| http                         | 1.4.2   | MIT OR Apache-2.0                    | https://github.com/hyperium/http                     |
+| tracing                      | 0.1.44  | MIT                                  | https://github.com/tokio-rs/tracing                  |
+| tracing-subscriber           | 0.3.23  | MIT                                  | https://github.com/tokio-rs/tracing                  |
+| sys-locale                   | 0.3.2   | MIT OR Apache-2.0                    | https://github.com/1Password/sys-locale              |
+| time                         | 0.3.53  | MIT OR Apache-2.0                    | https://github.com/time-rs/time                      |
+| http-body-util               | 0.1.3   | MIT                                  | https://github.com/hyperium/http-body                |
+| clap                         | 4.6.1   | MIT OR Apache-2.0                    | https://github.com/clap-rs/clap                      |
+| clap_complete                | 4.6.7   | MIT OR Apache-2.0                    | https://github.com/clap-rs/clap                      |
+| ureq                         | 3.3.0   | MIT OR Apache-2.0                    | https://github.com/algesten/ureq                     |
+| ulid                         | 3.0.0   | MIT                                  | https://github.com/dylanhart/ulid-rs                 |
+| rquickjs                     | 0.14.0  | MIT                                  | https://github.com/DelSkayn/rquickjs.git             |
+| thiserror                    | 2.0.18  | MIT OR Apache-2.0                    | https://github.com/dtolnay/thiserror                 |
+| sha2                         | 0.11.1  | MIT OR Apache-2.0                    | https://github.com/RustCrypto/hashes                 |
+| sha1                         | 0.10.6  | MIT OR Apache-2.0                    | https://github.com/RustCrypto/hashes                 |
+| md-5                         | 0.11.0  | MIT OR Apache-2.0                    | https://github.com/RustCrypto/hashes                 |
+| x509-parser                  | 0.18.1  | MIT OR Apache-2.0                    | https://github.com/rusticata/x509-parser.git         |
+| memchr                       | 2.8.2   | Unlicense OR MIT                     | https://github.com/BurntSushi/memchr                 |
+| rmcp                         | 3.2.0   | Apache-2.0                           | https://github.com/modelcontextprotocol/rust-sdk/    |
+| schemars                     | 1.2.1   | MIT                                  | https://github.com/GREsau/schemars                   |
+| boringtun                    | 0.7.1   | BSD-3-Clause                         | https://github.com/cloudflare/boringtun              |
+| smoltcp                      | 0.14.0  | 0BSD                                 | https://github.com/smoltcp-rs/smoltcp.git            |
+| objc2                        | 0.6.4   | MIT                                  | https://github.com/madsmtm/objc2                     |
+| objc2-app-kit                | 0.3.2   | Zlib OR Apache-2.0 OR MIT            | https://github.com/madsmtm/objc2                     |
+| objc2-foundation             | 0.3.2   | MIT                                  | https://github.com/madsmtm/objc2                     |
+| security-framework           | 3.7.0   | MIT OR Apache-2.0                    | https://github.com/kornelski/rust-security-framework |
+| security-framework-sys       | 2.17.0  | MIT OR Apache-2.0                    | https://github.com/kornelski/rust-security-framework |
+| core-foundation              | 0.10.1  | MIT OR Apache-2.0                    | https://github.com/servo/core-foundation-rs          |
+| system-configuration         | 0.8.0   | MIT OR Apache-2.0                    | https://github.com/mullvad/system-configuration-rs   |
+| libproc                      | 0.14.11 | MIT                                  | https://github.com/andrewdavidmackenzie/libproc-rs   |
+| libc                         | 0.2.186 | MIT OR Apache-2.0                    | https://github.com/rust-lang/libc                    |
 
 ## JavaScript/TypeScript (npm) Dependencies
 
@@ -79,20 +81,20 @@ This application directly depends on the following open source software.
 | @codemirror/lang-javascript | 6.2.5   | MIT               | https://github.com/codemirror/lang-javascript.git     |
 | @codemirror/state           | 6.7.6   | MIT               | https://code.haverbeke.berlin/codemirror/state.git    |
 | @codemirror/theme-one-dark  | 6.1.3   | MIT               | https://github.com/codemirror/theme-one-dark.git      |
-| @codemirror/view            | 6.43.13 | MIT               | https://code.haverbeke.berlin/codemirror/view.git     |
+| @codemirror/view            | 6.43.14 | MIT               | https://code.haverbeke.berlin/codemirror/view.git     |
 | @headlessui/react           | 2.2.10  | MIT               | https://github.com/tailwindlabs/headlessui.git        |
-| @tanstack/react-virtual     | 3.14.13 | MIT               | https://github.com/TanStack/virtual.git               |
+| @tanstack/react-virtual     | 3.14.15 | MIT               | https://github.com/TanStack/virtual.git               |
 | @tauri-apps/api             | 2.11.1  | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri.git               |
 | @tauri-apps/plugin-dialog   | 2.7.3   | MIT OR Apache-2.0 | https://github.com/tauri-apps/plugins-workspace       |
 | comment-json                | 5.0.0   | MIT               | https://github.com/kaelzhang/node-comment-json.git    |
 | fflate                      | 0.8.3   | MIT               | https://github.com/101arrowz/fflate                   |
-| i18next                     | 26.4.2  | MIT               | https://github.com/i18next/i18next.git                |
-| js-yaml                     | 5.4.2   | MIT               | https://github.com/nodeca/js-yaml                     |
+| i18next                     | 26.4.3  | MIT               | https://github.com/i18next/i18next.git                |
+| js-yaml                     | 5.4.3   | MIT               | https://github.com/nodeca/js-yaml                     |
 | json5                       | 2.2.3   | MIT               | https://github.com/json5/json5.git                    |
 | qrcode.react                | 4.2.0   | ISC               | https://github.com/zpao/qrcode.react.git              |
 | react                       | 19.3.0  | MIT               | https://github.com/react/react.git                    |
 | react-dom                   | 19.3.0  | MIT               | https://github.com/react/react.git                    |
-| react-i18next               | 17.0.15 | MIT               | https://github.com/i18next/react-i18next.git          |
+| react-i18next               | 17.0.16 | MIT               | https://github.com/i18next/react-i18next.git          |
 | uqr                         | 0.1.3   | MIT               | https://github.com/unjs/uqr.git                       |
-| uuid                        | 14.0.2  | MIT               | https://github.com/uuidjs/uuid.git                    |
+| uuid                        | 14.0.3  | MIT               | https://github.com/uuidjs/uuid.git                    |
 | valibot                     | 1.5.0   | MIT               | https://github.com/open-circle/valibot                |
