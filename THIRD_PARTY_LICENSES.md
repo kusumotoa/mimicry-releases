@@ -55,7 +55,7 @@ This application directly depends on the following open source software.
 | rquickjs                     | 0.14.0  | MIT                                  | https://github.com/DelSkayn/rquickjs.git             |
 | thiserror                    | 2.0.18  | MIT OR Apache-2.0                    | https://github.com/dtolnay/thiserror                 |
 | sha2                         | 0.11.1  | MIT OR Apache-2.0                    | https://github.com/RustCrypto/hashes                 |
-| sha1                         | 0.10.6  | MIT OR Apache-2.0                    | https://github.com/RustCrypto/hashes                 |
+| sha1                         | 0.11.0  | MIT OR Apache-2.0                    | https://github.com/RustCrypto/hashes                 |
 | md-5                         | 0.11.0  | MIT OR Apache-2.0                    | https://github.com/RustCrypto/hashes                 |
 | x509-parser                  | 0.18.1  | MIT OR Apache-2.0                    | https://github.com/rusticata/x509-parser.git         |
 | memchr                       | 2.8.2   | Unlicense OR MIT                     | https://github.com/BurntSushi/memchr                 |
