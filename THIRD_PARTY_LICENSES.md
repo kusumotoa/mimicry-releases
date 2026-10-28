@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 63, npm runtime dependencies: 21)
+(Rust direct dependencies: 63, npm runtime dependencies: 20)
 
 ## Rust (Cargo) Dependencies
 
@@ -96,5 +96,4 @@ This application directly depends on the following open source software.
 | react-dom                   | 19.3.0  | MIT               | https://github.com/react/react.git                    |
 | react-i18next               | 17.0.16 | MIT               | https://github.com/i18next/react-i18next.git          |
 | uqr                         | 0.1.3   | MIT               | https://github.com/unjs/uqr.git                       |
-| uuid                        | 14.0.3  | MIT               | https://github.com/uuidjs/uuid.git                    |
 | valibot                     | 1.5.0   | MIT               | https://github.com/open-circle/valibot                |
