@@ -59,7 +59,7 @@ This application directly depends on the following open source software.
 | md-5                         | 0.11.0  | MIT OR Apache-2.0                    | https://github.com/RustCrypto/hashes                 |
 | x509-parser                  | 0.18.1  | MIT OR Apache-2.0                    | https://github.com/rusticata/x509-parser.git         |
 | memchr                       | 2.8.2   | Unlicense OR MIT                     | https://github.com/BurntSushi/memchr                 |
-| rmcp                         | 3.2.0   | Apache-2.0                           | https://github.com/modelcontextprotocol/rust-sdk/    |
+| rmcp                         | 3.8.0   | Apache-2.0                           | https://github.com/modelcontextprotocol/rust-sdk/    |
 | schemars                     | 1.2.1   | MIT                                  | https://github.com/GREsau/schemars                   |
 | boringtun                    | 0.7.1   | BSD-3-Clause                         | https://github.com/cloudflare/boringtun              |
 | smoltcp                      | 0.14.0  | 0BSD                                 | https://github.com/smoltcp-rs/smoltcp.git            |
