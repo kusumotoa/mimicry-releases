@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 63, npm runtime dependencies: 20)
+(Rust direct dependencies: 64, npm runtime dependencies: 20)
 
 ## Rust (Cargo) Dependencies
 
@@ -27,7 +27,7 @@ This application directly depends on the following open source software.
 | zstd                         | 0.14.0  | BSD-3-Clause                         | https://github.com/gyscos/zstd-rs                    |
 | zip                          | 9.0.5   | MIT                                  | https://github.com/zip-rs/zip2                       |
 | image                        | 0.25.10 | MIT OR Apache-2.0                    | https://github.com/image-rs/image                    |
-| base64                       | 0.23.0  | MIT OR Apache-2.0                    | https://github.com/marshallpierce/rust-base64        |
+| base64                       | 0.23.1  | MIT OR Apache-2.0                    | https://github.com/marshallpierce/rust-base64        |
 | dirs                         | 6.0.0   | MIT OR Apache-2.0                    | https://github.com/soc/dirs-rs                       |
 | axum                         | 0.8.9   | MIT                                  | https://github.com/tokio-rs/axum                     |
 | regex-lite                   | 0.1.9   | MIT OR Apache-2.0                    | https://github.com/rust-lang/regex                   |
@@ -35,8 +35,9 @@ This application directly depends on the following open source software.
 | urlencoding                  | 2.1.3   | MIT                                  | https://github.com/kornelski/rust_urlencoding        |
 | encoding_rs                  | 0.8.35  | (Apache-2.0 OR MIT) AND BSD-3-Clause | https://github.com/hsivonen/encoding_rs              |
 | hudsucker                    | 0.25.0  | MIT OR Apache-2.0                    | https://github.com/omjadas/hudsucker                 |
-| rustls                       | 0.23.45 | Apache-2.0 OR ISC OR MIT             | https://github.com/rustls/rustls                     |
+| rustls                       | 0.23.46 | Apache-2.0 OR ISC OR MIT             | https://github.com/rustls/rustls                     |
 | tokio-rustls                 | 0.26.4  | MIT OR Apache-2.0                    | https://github.com/rustls/tokio-rustls               |
+| webpki-roots                 | 1.0.10  | CDLA-Permissive-2.0                  | https://github.com/rustls/webpki-roots               |
 | hyper-rustls                 | 0.27.9  | Apache-2.0 OR ISC OR MIT             | https://github.com/rustls/hyper-rustls               |
 | socket2                      | 0.6.4   | MIT OR Apache-2.0                    | https://github.com/rust-lang/socket2                 |
 | dashmap                      | 6.2.1   | MIT                                  | https://github.com/xacrimon/dashmap                  |
@@ -50,7 +51,7 @@ This application directly depends on the following open source software.
 | http-body-util               | 0.1.3   | MIT                                  | https://github.com/hyperium/http-body                |
 | clap                         | 4.6.1   | MIT OR Apache-2.0                    | https://github.com/clap-rs/clap                      |
 | clap_complete                | 4.6.7   | MIT OR Apache-2.0                    | https://github.com/clap-rs/clap                      |
-| ureq                         | 3.3.0   | MIT OR Apache-2.0                    | https://github.com/algesten/ureq                     |
+| ureq                         | 3.5.0   | MIT OR Apache-2.0                    | https://github.com/algesten/ureq                     |
 | ulid                         | 3.0.0   | MIT                                  | https://github.com/dylanhart/ulid-rs                 |
 | rquickjs                     | 0.14.0  | MIT                                  | https://github.com/DelSkayn/rquickjs.git             |
 | thiserror                    | 2.0.18  | MIT OR Apache-2.0                    | https://github.com/dtolnay/thiserror                 |
