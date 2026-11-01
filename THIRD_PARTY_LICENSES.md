@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 64, npm runtime dependencies: 20)
+(Rust direct dependencies: 65, npm runtime dependencies: 20)
 
 ## Rust (Cargo) Dependencies
 
@@ -40,6 +40,7 @@ This application directly depends on the following open source software.
 | webpki-roots                 | 1.0.10  | CDLA-Permissive-2.0                  | https://github.com/rustls/webpki-roots               |
 | hyper-rustls                 | 0.27.9  | Apache-2.0 OR ISC OR MIT             | https://github.com/rustls/hyper-rustls               |
 | socket2                      | 0.6.4   | MIT OR Apache-2.0                    | https://github.com/rust-lang/socket2                 |
+| tower-service                | 0.3.3   | MIT                                  | https://github.com/tower-rs/tower                    |
 | dashmap                      | 6.2.1   | MIT                                  | https://github.com/xacrimon/dashmap                  |
 | moka                         | 0.12.15 | (MIT OR Apache-2.0) AND Apache-2.0   | https://github.com/moka-rs/moka                      |
 | rand                         | 0.10.2  | MIT OR Apache-2.0                    | https://github.com/rust-random/rand                  |
