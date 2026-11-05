@@ -12,7 +12,7 @@ This application directly depends on the following open source software.
 | tauri                        | 2.12.5  | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/tauri                  |
 | tauri-plugin-dialog          | 2.8.4   | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
 | tauri-plugin-opener          | 2.5.4   | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
-| tauri-plugin-updater         | 2.10.1  | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
+| tauri-plugin-updater         | 2.14.1  | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
 | tauri-plugin-single-instance | 2.4.2   | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
 | tauri-plugin-window-state    | 2.4.1   | Apache-2.0 OR MIT                    | https://github.com/tauri-apps/plugins-workspace      |
 | serde                        | 1.0.228 | MIT OR Apache-2.0                    | https://github.com/serde-rs/serde                    |
@@ -20,11 +20,11 @@ This application directly depends on the following open source software.
 | json5                        | 1.3.1   | MIT                                  | https://github.com/callum-oakley/json5-rs            |
 | lru                          | 0.19.0  | MIT                                  | https://github.com/jeromefroe/lru-rs.git             |
 | futures-util                 | 0.3.32  | MIT OR Apache-2.0                    | https://github.com/rust-lang/futures-rs              |
-| tokio                        | 1.52.3  | MIT                                  | https://github.com/tokio-rs/tokio                    |
+| tokio                        | 1.54.1  | MIT                                  | https://github.com/tokio-rs/tokio                    |
 | bytes                        | 1.12.0  | MIT                                  | https://github.com/tokio-rs/bytes                    |
 | flate2                       | 1.1.9   | MIT OR Apache-2.0                    | https://github.com/rust-lang/flate2-rs               |
 | brotli                       | 9.1.1   | BSD-3-Clause AND MIT                 | https://github.com/dropbox/rust-brotli               |
-| zstd                         | 0.14.0  | BSD-3-Clause                         | https://github.com/gyscos/zstd-rs                    |
+| zstd                         | 0.14.3  | BSD-3-Clause                         | https://github.com/gyscos/zstd-rs                    |
 | zip                          | 9.0.5   | MIT                                  | https://github.com/zip-rs/zip2                       |
 | image                        | 0.25.10 | MIT OR Apache-2.0                    | https://github.com/image-rs/image                    |
 | base64                       | 0.23.1  | MIT OR Apache-2.0                    | https://github.com/marshallpierce/rust-base64        |
