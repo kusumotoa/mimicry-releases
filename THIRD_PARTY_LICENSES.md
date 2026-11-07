@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 65, npm runtime dependencies: 20)
+(Rust direct dependencies: 64, npm runtime dependencies: 20)
 
 ## Rust (Cargo) Dependencies
 
@@ -34,7 +34,6 @@ This application directly depends on the following open source software.
 | uuid                         | 1.23.4  | Apache-2.0 OR MIT                    | https://github.com/uuid-rs/uuid                      |
 | urlencoding                  | 2.1.3   | MIT                                  | https://github.com/kornelski/rust_urlencoding        |
 | encoding_rs                  | 0.8.35  | (Apache-2.0 OR MIT) AND BSD-3-Clause | https://github.com/hsivonen/encoding_rs              |
-| hudsucker                    | 0.25.0  | MIT OR Apache-2.0                    | https://github.com/omjadas/hudsucker                 |
 | rustls                       | 0.23.46 | Apache-2.0 OR ISC OR MIT             | https://github.com/rustls/rustls                     |
 | tokio-rustls                 | 0.26.4  | MIT OR Apache-2.0                    | https://github.com/rustls/tokio-rustls               |
 | webpki-roots                 | 1.0.10  | CDLA-Permissive-2.0                  | https://github.com/rustls/webpki-roots               |
