@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェアを直接利用しています。
 This application directly depends on the following open source software.
 
-(Rust direct dependencies: 64, npm runtime dependencies: 20)
+(Rust direct dependencies: 62, npm runtime dependencies: 20)
 
 ## Rust (Cargo) Dependencies
 
@@ -62,8 +62,6 @@ This application directly depends on the following open source software.
 | memchr                       | 2.8.2   | Unlicense OR MIT                     | https://github.com/BurntSushi/memchr                 |
 | rmcp                         | 3.9.0   | Apache-2.0                           | https://github.com/modelcontextprotocol/rust-sdk/    |
 | schemars                     | 1.2.1   | MIT                                  | https://github.com/GREsau/schemars                   |
-| boringtun                    | 0.7.1   | BSD-3-Clause                         | https://github.com/cloudflare/boringtun              |
-| smoltcp                      | 0.14.0  | 0BSD                                 | https://github.com/smoltcp-rs/smoltcp.git            |
 | objc2                        | 0.6.4   | MIT                                  | https://github.com/madsmtm/objc2                     |
 | objc2-app-kit                | 0.3.2   | Zlib OR Apache-2.0 OR MIT            | https://github.com/madsmtm/objc2                     |
 | objc2-foundation             | 0.3.2   | MIT                                  | https://github.com/madsmtm/objc2                     |
