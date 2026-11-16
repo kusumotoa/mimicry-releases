@@ -60,7 +60,7 @@ This application directly depends on the following open source software.
 | md-5                         | 0.11.0  | MIT OR Apache-2.0                    | https://github.com/RustCrypto/hashes                 |
 | x509-parser                  | 0.18.1  | MIT OR Apache-2.0                    | https://github.com/rusticata/x509-parser.git         |
 | memchr                       | 2.8.2   | Unlicense OR MIT                     | https://github.com/BurntSushi/memchr                 |
-| rmcp                         | 3.9.0   | Apache-2.0                           | https://github.com/modelcontextprotocol/rust-sdk/    |
+| rmcp                         | 3.10.0  | Apache-2.0                           | https://github.com/modelcontextprotocol/rust-sdk/    |
 | schemars                     | 1.2.1   | MIT                                  | https://github.com/GREsau/schemars                   |
 | objc2                        | 0.6.4   | MIT                                  | https://github.com/madsmtm/objc2                     |
 | objc2-app-kit                | 0.3.2   | Zlib OR Apache-2.0 OR MIT            | https://github.com/madsmtm/objc2                     |
@@ -82,17 +82,17 @@ This application directly depends on the following open source software.
 | @codemirror/theme-one-dark  | 6.1.3   | MIT               | https://github.com/codemirror/theme-one-dark.git      |
 | @codemirror/view            | 6.43.15 | MIT               | https://code.haverbeke.berlin/codemirror/view.git     |
 | @headlessui/react           | 2.2.10  | MIT               | https://github.com/tailwindlabs/headlessui.git        |
-| @tanstack/react-virtual     | 3.14.22 | MIT               | https://github.com/TanStack/virtual.git               |
+| @tanstack/react-virtual     | 3.14.25 | MIT               | https://github.com/TanStack/virtual.git               |
 | @tauri-apps/api             | 2.12.4  | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri.git               |
-| @tauri-apps/plugin-dialog   | 2.8.3   | MIT OR Apache-2.0 | https://github.com/tauri-apps/plugins-workspace       |
+| @tauri-apps/plugin-dialog   | 2.8.4   | MIT OR Apache-2.0 | https://github.com/tauri-apps/plugins-workspace       |
 | comment-json                | 5.0.0   | MIT               | https://github.com/kaelzhang/node-comment-json.git    |
 | fflate                      | 0.8.3   | MIT               | https://github.com/101arrowz/fflate                   |
-| i18next                     | 26.5.11 | MIT               | https://github.com/i18next/i18next.git                |
+| i18next                     | 26.7.1  | MIT               | https://github.com/i18next/i18next.git                |
 | js-yaml                     | 5.5.0   | MIT               | https://github.com/nodeca/js-yaml                     |
 | json5                       | 2.2.3   | MIT               | https://github.com/json5/json5.git                    |
 | qrcode.react                | 4.2.0   | ISC               | https://github.com/zpao/qrcode.react.git              |
 | react                       | 19.3.1  | MIT               | https://github.com/react/react.git                    |
 | react-dom                   | 19.3.1  | MIT               | https://github.com/react/react.git                    |
-| react-i18next               | 17.1.9  | MIT               | https://github.com/i18next/react-i18next.git          |
+| react-i18next               | 17.1.11 | MIT               | https://github.com/i18next/react-i18next.git          |
 | uqr                         | 0.1.3   | MIT               | https://github.com/unjs/uqr.git                       |
 | valibot                     | 1.5.0   | MIT               | https://github.com/open-circle/valibot                |
