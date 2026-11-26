@@ -3,7 +3,7 @@
 Mimicry は以下のオープンソースソフトウェア (直接の依存と、配布物に含まれる推移的な依存) を利用しています。
 This application uses the following open source software, including both direct and transitive dependencies shipped with it.
 
-(Rust: 62 direct, 411 including transitive; npm runtime: 19 direct, 58 including transitive)
+(Rust: 62 direct, 411 including transitive; npm runtime: 19 direct, 59 including transitive)
 
 ## Rust (Cargo) Dependencies
 
@@ -60,7 +60,7 @@ This application uses the following open source software, including both direct 
 | colorchoice                  | 1.0.5            | MIT OR Apache-2.0                                   | https://github.com/rust-cli/anstyle.git                            |
 | concurrent-queue             | 2.5.0            | Apache-2.0 OR MIT                                   | https://github.com/smol-rs/concurrent-queue                        |
 | const-oid                    | 0.10.2           | Apache-2.0 OR MIT                                   | https://github.com/RustCrypto/formats                              |
-| cookie                       | 0.18.1           | MIT OR Apache-2.0                                   | https://github.com/SergioBenitez/cookie-rs                         |
+| cookie                       | 0.18.3           | MIT OR Apache-2.0                                   | https://github.com/SergioBenitez/cookie-rs                         |
 | cookie_store                 | 0.22.1           | MIT OR Apache-2.0                                   | https://github.com/pfernie/cookie_store                            |
 | core-foundation              | 0.10.1           | MIT OR Apache-2.0                                   | https://github.com/servo/core-foundation-rs                        |
 | core-foundation              | 0.9.4            | MIT OR Apache-2.0                                   | https://github.com/servo/core-foundation-rs                        |
@@ -120,7 +120,7 @@ This application uses the following open source software, including both direct 
 | foreign-types                | 0.5.0            | MIT/Apache-2.0                                      | https://github.com/sfackler/foreign-types                          |
 | foreign-types-macros         | 0.2.3            | MIT/Apache-2.0                                      | https://github.com/sfackler/foreign-types                          |
 | foreign-types-shared         | 0.3.1            | MIT/Apache-2.0                                      | https://github.com/sfackler/foreign-types                          |
-| form_urlencoded              | 1.2.2            | MIT OR Apache-2.0                                   | https://github.com/servo/rust-url                                  |
+| form_urlencoded              | 1.2.3            | MIT OR Apache-2.0                                   | https://github.com/servo/rust-url                                  |
 | futures                      | 0.3.32           | MIT OR Apache-2.0                                   | https://github.com/rust-lang/futures-rs                            |
 | futures-channel              | 0.3.32           | MIT OR Apache-2.0                                   | https://github.com/rust-lang/futures-rs                            |
 | futures-core                 | 0.3.32           | MIT OR Apache-2.0                                   | https://github.com/rust-lang/futures-rs                            |
@@ -344,8 +344,8 @@ This application uses the following open source software, including both direct 
 | tempfile                     | 3.27.0           | MIT OR Apache-2.0                                   | https://github.com/Stebalien/tempfile                              |
 | tendril                      | 0.5.1            | MIT OR Apache-2.0                                   | https://github.com/servo/html5ever                                 |
 | text-size                    | 1.1.1            | MIT OR Apache-2.0                                   | https://github.com/rust-analyzer/text-size                         |
-| thiserror                    | 2.0.18           | MIT OR Apache-2.0                                   | https://github.com/dtolnay/thiserror                               |
-| thiserror-impl               | 2.0.18           | MIT OR Apache-2.0                                   | https://github.com/dtolnay/thiserror                               |
+| thiserror                    | 2.0.21           | MIT OR Apache-2.0                                   | https://github.com/dtolnay/thiserror                               |
+| thiserror-impl               | 2.0.21           | MIT OR Apache-2.0                                   | https://github.com/dtolnay/thiserror                               |
 | thread_local                 | 1.1.9            | MIT OR Apache-2.0                                   | https://github.com/Amanieu/thread_local-rs                         |
 | time                         | 0.3.53           | MIT OR Apache-2.0                                   | https://github.com/time-rs/time                                    |
 | time-core                    | 0.1.9            | MIT OR Apache-2.0                                   | https://github.com/time-rs/time                                    |
@@ -384,7 +384,7 @@ This application uses the following open source software, including both direct 
 | untrusted                    | 0.9.0            | ISC                                                 | https://github.com/briansmith/untrusted                            |
 | ureq                         | 3.5.0            | MIT OR Apache-2.0                                   | https://github.com/algesten/ureq                                   |
 | ureq-proto                   | 0.6.5            | MIT OR Apache-2.0                                   | https://github.com/algesten/ureq-proto                             |
-| url                          | 2.5.8            | MIT OR Apache-2.0                                   | https://github.com/servo/rust-url                                  |
+| url                          | 2.5.9            | MIT OR Apache-2.0                                   | https://github.com/servo/rust-url                                  |
 | urlencoding                  | 2.1.3            | MIT                                                 | https://github.com/kornelski/rust_urlencoding                      |
 | urlpattern                   | 0.6.0            | MIT                                                 | https://github.com/denoland/rust-urlpattern                        |
 | utf8-zero                    | 0.8.1            | MIT OR Apache-2.0                                   | https://github.com/algesten/utf8-zero                              |
@@ -425,7 +425,6 @@ This application uses the following open source software, including both direct 
 
 | Name                        | Version | License           | Repository                                                                         |
 | --------------------------- | ------- | ----------------- | ---------------------------------------------------------------------------------- |
-| @babel/runtime              | 7.29.10 | MIT               | https://github.com/babel/babel.git                                                 |
 | @codemirror/autocomplete    | 6.20.4  | MIT               | https://code.haverbeke.berlin/codemirror/autocomplete.git                          |
 | @codemirror/commands        | 6.11.1  | MIT               | https://code.haverbeke.berlin/codemirror/commands.git                              |
 | @codemirror/lang-javascript | 6.2.5   | MIT               | https://github.com/codemirror/lang-javascript.git                                  |
@@ -453,27 +452,29 @@ This application uses the following open source software, including both direct 
 | @react-aria/interactions    | 3.28.1  | Apache-2.0        | https://github.com/adobe/react-spectrum                                            |
 | @react-types/shared         | 3.37.0  | Apache-2.0        | https://github.com/adobe/react-spectrum                                            |
 | @swc/helpers                | 0.5.23  | Apache-2.0        | https://github.com/swc-project/swc.git                                             |
-| @tanstack/react-virtual     | 3.14.25 | MIT               | https://github.com/TanStack/virtual.git                                            |
-| @tanstack/virtual-core      | 3.19.10 | MIT               | https://github.com/TanStack/virtual.git                                            |
+| @tanstack/react-virtual     | 3.14.26 | MIT               | https://github.com/TanStack/virtual.git                                            |
+| @tanstack/virtual-core      | 3.19.11 | MIT               | https://github.com/TanStack/virtual.git                                            |
 | @tauri-apps/api             | 2.12.4  | Apache-2.0 OR MIT | https://github.com/tauri-apps/tauri.git                                            |
 | @tauri-apps/plugin-dialog   | 2.8.4   | MIT OR Apache-2.0 | https://github.com/tauri-apps/plugins-workspace                                    |
+| @types/react                | 19.3.0  | MIT               | https://github.com/DefinitelyTyped/DefinitelyTyped.git                             |
 | argparse                    | 3.0.4   | PSF-2.0           | https://github.com/nodeca/argparse                                                 |
 | aria-hidden                 | 1.2.6   | MIT               | https://github.com/theKashey/aria-hidden.git                                       |
 | array-timsort               | 1.0.3   | MIT               | https://github.com/kaelzhang/node-array-timsort.git                                |
 | clsx                        | 2.1.1   | MIT               | https://github.com/lukeed/clsx                                                     |
 | comment-json                | 5.0.0   | MIT               | https://github.com/kaelzhang/node-comment-json.git                                 |
 | crelt                       | 1.0.7   | MIT               | https://code.haverbeke.berlin/marijn/crelt.git                                     |
+| csstype                     | 3.2.3   | MIT               | https://github.com/frenic/csstype                                                  |
 | esprima                     | 4.0.1   | BSD-2-Clause      | https://github.com/jquery/esprima.git                                              |
 | fflate                      | 0.8.3   | MIT               | https://github.com/101arrowz/fflate                                                |
 | html-parse-stringify        | 4.0.1   | MIT               | https://github.com/i18next/html-parse-stringify.git                                |
-| i18next                     | 26.7.1  | MIT               | https://github.com/i18next/i18next.git                                             |
+| i18next                     | 27.0.1  | MIT               | https://github.com/i18next/i18next.git                                             |
 | js-yaml                     | 5.5.0   | MIT               | https://github.com/nodeca/js-yaml                                                  |
 | json5                       | 2.2.3   | MIT               | https://github.com/json5/json5.git                                                 |
 | qrcode.react                | 4.2.0   | ISC               | https://github.com/zpao/qrcode.react.git                                           |
 | react                       | 19.3.1  | MIT               | https://github.com/react/react.git                                                 |
 | react-aria                  | 3.53.1  | Apache-2.0        | https://github.com/adobe/react-spectrum                                            |
 | react-dom                   | 19.3.1  | MIT               | https://github.com/react/react.git                                                 |
-| react-i18next               | 17.1.11 | MIT               | https://github.com/i18next/react-i18next.git                                       |
+| react-i18next               | 18.0.1  | MIT               | https://github.com/i18next/react-i18next.git                                       |
 | react-stately               | 3.51.0  | Apache-2.0        | https://github.com/adobe/react-spectrum                                            |
 | scheduler                   | 0.28.0  | MIT               | https://github.com/react/react.git                                                 |
 | style-mod                   | 4.1.4   | MIT               | https://code.haverbeke.berlin/marijn/style-mod.git                                 |
@@ -492,37 +493,6 @@ The license texts and copyright notices shipped with each package are listed bel
 For some packages that do not ship a text, the text supplied from the upstream repository is shown, with its source noted under the heading ([supplied / 補った全文]).
 
 ### Text 1 (LICENSE)
-
-Used by (1):
-
-- @babel/runtime 7.29.10
-
-```
-MIT License
-
-Copyright (c) 2014-present Sebastian McKenzie and other contributors
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
-
-### Text 2 (LICENSE)
 
 Used by (9):
 
@@ -560,7 +530,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 3 (LICENSE)
+### Text 2 (LICENSE)
 
 Used by (5):
 
@@ -593,7 +563,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 4 (LICENSE)
+### Text 3 (LICENSE)
 
 Used by (1):
 
@@ -623,7 +593,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 5 (LICENSE)
+### Text 4 (LICENSE)
 
 Used by (8):
 
@@ -840,7 +810,7 @@ Used by (8):
    limitations under the License.
 ```
 
-### Text 6 (LICENSE)
+### Text 5 (LICENSE)
 
 Used by (4):
 
@@ -873,7 +843,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 7 (LICENSE)
+### Text 6 (LICENSE)
 
 Used by (1):
 
@@ -903,7 +873,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 8 (LICENSE)
+### Text 7 (LICENSE)
 
 Used by (1):
 
@@ -1113,12 +1083,12 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 9 (LICENSE)
+### Text 8 (LICENSE)
 
 Used by (2):
 
-- @tanstack/react-virtual 3.14.25
-- @tanstack/virtual-core 3.19.10
+- @tanstack/react-virtual 3.14.26
+- @tanstack/virtual-core 3.19.11
 
 ```
 MIT License
@@ -1144,7 +1114,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 10 (LICENSE, LICENSE-APACHE, LICENSE-APACHE-2.0, LICENSE-APACHE.md, LICENSE-Apache)
+### Text 9 (LICENSE, LICENSE-APACHE, LICENSE-APACHE-2.0, LICENSE-APACHE.md, LICENSE-Apache)
 
 Used by (18):
 
@@ -1347,7 +1317,7 @@ Used by (18):
    END OF TERMS AND CONDITIONS
 ```
 
-### Text 11 (LICENSE.spdx)
+### Text 10 (LICENSE.spdx)
 
 Used by (1):
 
@@ -1376,7 +1346,7 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/tauri.git
 Creator: Person: Daniel Thompson-Yvetot
 ```
 
-### Text 12 (LICENSE-MIT)
+### Text 11 (LICENSE-MIT)
 
 Used by (7):
 
@@ -1412,7 +1382,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 13 (LICENSE.spdx)
+### Text 12 (LICENSE.spdx)
 
 Used by (7):
 
@@ -1445,6 +1415,36 @@ PackageDownloadLocation: git://github.com/tauri-apps/tauri
 PackageDownloadLocation: git+https://github.com/tauri-apps/tauri.git
 PackageDownloadLocation: git+ssh://github.com/tauri-apps/tauri.git
 Creator: Person: Daniel Thompson-Yvetot
+```
+
+### Text 13 (LICENSE)
+
+Used by (1):
+
+- @types/react 19.3.0
+
+```
+    MIT License
+
+    Copyright (c) Microsoft Corporation.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE
 ```
 
 ### Text 14 (LICENSE-MIT)
@@ -1493,8 +1493,8 @@ Used by (49):
 - servo_arc 0.4.3
 - syn 2.0.118
 - syn 3.0.5
-- thiserror 2.0.18
-- thiserror-impl 2.0.18
+- thiserror 2.0.21
+- thiserror-impl 2.0.21
 - typed-path 0.12.3
 - typeid 1.0.3
 - unicode-ident 1.0.24
@@ -2393,8 +2393,8 @@ Used by (33):
 - serde_urlencoded 0.7.1
 - syn 2.0.118
 - syn 3.0.5
-- thiserror 2.0.18
-- thiserror-impl 2.0.18
+- thiserror 2.0.21
+- thiserror-impl 2.0.21
 - typed-path 0.12.3
 - typeid 1.0.3
 - unicode-ident 1.0.24
@@ -2791,7 +2791,7 @@ Used by (101):
 - filetime 0.2.29
 - flate2 1.1.9
 - fnv 1.0.7
-- form_urlencoded 1.2.2
+- form_urlencoded 1.2.3
 - glob 0.3.3
 - hashbrown 0.12.3
 - hashbrown 0.14.5
@@ -2852,7 +2852,7 @@ Used by (101):
 - tray-icon 0.25.1
 - tungstenite 0.30.0
 - ucd-trie 0.1.7
-- url 2.5.8
+- url 2.5.9
 - uuid 1.23.4
 - web_atoms 0.2.5
 - window-vibrancy 0.8.1
@@ -4517,7 +4517,7 @@ DEALINGS IN THE SOFTWARE.
 
 Used by (1):
 
-- cookie 0.18.1
+- cookie 0.18.3
 
 ```
                               Apache License
@@ -4728,7 +4728,7 @@ limitations under the License.
 
 Used by (1):
 
-- cookie 0.18.1
+- cookie 0.18.3
 
 ```
 Copyright (c) 2017 Sergio Benitez
@@ -6223,7 +6223,35 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
   defined by the Mozilla Public License, v. 2.0.
 ```
 
-### Text 72 (LICENSE-APACHE)
+### Text 72 (LICENSE)
+
+Used by (1):
+
+- csstype 3.2.3
+
+```
+Copyright (c) 2017-2018 Fredrik Nicol
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### Text 73 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -6433,7 +6461,7 @@ Apache License
    limitations under the License.
 ```
 
-### Text 73 (LICENSE-MIT)
+### Text 74 (LICENSE-MIT)
 
 Used by (1):
 
@@ -6447,7 +6475,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 74 (LICENSE)
+### Text 75 (LICENSE)
 
 Used by (6):
 
@@ -6482,7 +6510,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 75 (LICENSE)
+### Text 76 (LICENSE)
 
 Used by (1):
 
@@ -6512,7 +6540,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 76 (LICENSE)
+### Text 77 (LICENSE)
 
 Used by (1):
 
@@ -6543,7 +6571,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 77 (LICENSE-MIT)
+### Text 78 (LICENSE-MIT)
 
 Used by (1):
 
@@ -6571,7 +6599,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 78 (LICENSE-Apache)
+### Text 79 (LICENSE-Apache)
 
 Used by (1):
 
@@ -6782,7 +6810,7 @@ Used by (1):
    limitations under the License.
 ```
 
-### Text 79 (LICENSE)
+### Text 80 (LICENSE)
 
 Used by (2):
 
@@ -6813,7 +6841,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 80 (LICENSE-MIT)
+### Text 81 (LICENSE-MIT)
 
 Used by (1):
 
@@ -6847,7 +6875,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 81 (LICENSE-MIT)
+### Text 82 (LICENSE-MIT)
 
 Used by (1):
 
@@ -6882,7 +6910,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 82 (LICENSE-MIT)
+### Text 83 (LICENSE-MIT)
 
 Used by (2):
 
@@ -6911,7 +6939,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 83 (LICENSE-APACHE)
+### Text 84 (LICENSE-APACHE)
 
 Used by (2):
 
@@ -7095,7 +7123,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
    of your accepting any such warranty or additional liability.
 ```
 
-### Text 84 (LICENSE-APACHE)
+### Text 85 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -7177,7 +7205,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 85 (LICENSE-MIT)
+### Text 86 (LICENSE-MIT)
 
 Used by (1):
 
@@ -7205,7 +7233,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 86 (LICENSE)
+### Text 87 (LICENSE)
 
 Used by (1):
 
@@ -7241,7 +7269,7 @@ derived from the "nipper" project (https://github.com/importcjj/nipper),
 developed by Chen Jiaju, licensed under the MIT License and the Apache License 2.0 (dual licensed).
 ```
 
-### Text 87 (LICENSE)
+### Text 88 (LICENSE)
 
 Used by (2):
 
@@ -7452,7 +7480,7 @@ Apache License
    limitations under the License.
 ```
 
-### Text 88 (LICENSE-LIBM-MIT)
+### Text 89 (LICENSE-LIBM-MIT)
 
 Used by (1):
 
@@ -7512,7 +7540,7 @@ have been licensed under extremely permissive terms.
 ------------------------------------------------------------------------------
 ```
 
-### Text 89 (LICENSE)
+### Text 90 (LICENSE)
 
 Used by (1):
 
@@ -7894,7 +7922,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
   defined by the Mozilla Public License, v. 2.0.
 ```
 
-### Text 90 (LICENSE)
+### Text 91 (LICENSE)
 
 Used by (1):
 
@@ -8024,7 +8052,7 @@ express Statement of Purpose.
     this CC0 or use of the Work.
 ```
 
-### Text 91 (LICENSE-APACHE, LICENSE-APACHE.md, LICENSE-APACHE.txt)
+### Text 92 (LICENSE-APACHE, LICENSE-APACHE.md, LICENSE-APACHE.txt)
 
 Used by (6):
 
@@ -8240,7 +8268,7 @@ Used by (6):
    limitations under the License.
 ```
 
-### Text 92 (LICENSE-MIT)
+### Text 93 (LICENSE-MIT)
 
 Used by (1):
 
@@ -8270,7 +8298,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 93 (LICENSE-MIT)
+### Text 94 (LICENSE-MIT)
 
 Used by (2):
 
@@ -8305,7 +8333,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 94 (LICENSE-WHATWG)
+### Text 95 (LICENSE-WHATWG)
 
 Used by (1):
 
@@ -8340,7 +8368,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Text 95 (LICENSE-MIT)
+### Text 96 (LICENSE-MIT)
 
 Used by (1):
 
@@ -8374,7 +8402,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 96 (LICENSE-MIT)
+### Text 97 (LICENSE-MIT)
 
 Used by (1):
 
@@ -8408,7 +8436,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 97 (LICENSE.BSD)
+### Text 98 (LICENSE.BSD)
 
 Used by (1):
 
@@ -8438,7 +8466,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Text 98 (LICENSE-MIT)
+### Text 99 (LICENSE-MIT)
 
 Used by (2):
 
@@ -8473,7 +8501,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 99 (LICENSE)
+### Text 100 (LICENSE)
 
 Used by (1):
 
@@ -8503,7 +8531,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 100 (LICENSE-MIT)
+### Text 101 (LICENSE-MIT)
 
 Used by (1):
 
@@ -8537,7 +8565,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 101 (LICENSE-MIT)
+### Text 102 (LICENSE-MIT)
 
 Used by (1):
 
@@ -8571,7 +8599,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 102 (LICENSE)
+### Text 103 (LICENSE)
 
 Used by (1):
 
@@ -8599,7 +8627,7 @@ the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ```
 
-### Text 103 (LICENSE-MIT)
+### Text 104 (LICENSE-MIT)
 
 Used by (3):
 
@@ -8629,11 +8657,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 104 (LICENSE-MIT)
+### Text 105 (LICENSE-MIT)
 
 Used by (1):
 
-- form_urlencoded 1.2.2
+- form_urlencoded 1.2.3
 
 ```
 Copyright (c) 2013-2016 The rust-url developers
@@ -8663,7 +8691,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 105 (LICENSE-APACHE)
+### Text 106 (LICENSE-APACHE)
 
 Used by (9):
 
@@ -8882,7 +8910,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 106 (LICENSE-MIT)
+### Text 107 (LICENSE-MIT)
 
 Used by (9):
 
@@ -8925,7 +8953,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 107 (LICENSE)
+### Text 108 (LICENSE)
 
 Used by (1):
 
@@ -8955,7 +8983,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 108 (LICENSE-MIT)
+### Text 109 (LICENSE-MIT)
 
 Used by (1):
 
@@ -8990,7 +9018,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 109 (LICENSE-APACHE)
+### Text 110 (LICENSE-APACHE)
 
 Used by (3):
 
@@ -9202,7 +9230,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 110 (LICENSE-MIT)
+### Text 111 (LICENSE-MIT)
 
 Used by (1):
 
@@ -9237,7 +9265,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 111 (LICENSE-MIT)
+### Text 112 (LICENSE-MIT)
 
 Used by (1):
 
@@ -9272,7 +9300,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 112 (LICENSE)
+### Text 113 (LICENSE)
 
 Used by (1):
 
@@ -9306,7 +9334,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 113 (LICENSE-MIT)
+### Text 114 (LICENSE-MIT)
 
 Used by (3):
 
@@ -9342,7 +9370,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 114 (LICENSE-MIT)
+### Text 115 (LICENSE-MIT)
 
 Used by (1):
 
@@ -9376,7 +9404,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 115 (LICENSE-MIT)
+### Text 116 (LICENSE-MIT)
 
 Used by (1):
 
@@ -9405,7 +9433,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 116 (LICENSE)
+### Text 117 (LICENSE)
 
 Used by (1):
 
@@ -9436,7 +9464,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 117 (LICENSE-MIT)
+### Text 118 (LICENSE-MIT)
 
 Used by (3):
 
@@ -9472,7 +9500,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 118 (LICENSE-APACHE)
+### Text 119 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -9682,7 +9710,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 119 (LICENSE-MIT)
+### Text 120 (LICENSE-MIT)
 
 Used by (1):
 
@@ -9716,7 +9744,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 120 (LICENSE)
+### Text 121 (LICENSE)
 
 Used by (1):
 
@@ -9750,7 +9778,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 121 (LICENSE)
+### Text 122 (LICENSE)
 
 Used by (1):
 
@@ -9784,7 +9812,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 122 (LICENSE-MIT)
+### Text 123 (LICENSE-MIT)
 
 Used by (1):
 
@@ -9813,7 +9841,7 @@ THE SOFTWARE.
 
 ```
 
-### Text 123 (LICENSE-APACHE)
+### Text 124 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -10023,7 +10051,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 124 (LICENSE-MIT)
+### Text 125 (LICENSE-MIT)
 
 Used by (1):
 
@@ -10051,7 +10079,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 125 (LICENSE-APACHE)
+### Text 126 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -10261,7 +10289,7 @@ Apache License
    limitations under the License.
 ```
 
-### Text 126 (LICENSE-MIT)
+### Text 127 (LICENSE-MIT)
 
 Used by (1):
 
@@ -10291,7 +10319,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 127 (LICENSE-MIT)
+### Text 128 (LICENSE-MIT)
 
 Used by (1):
 
@@ -10325,7 +10353,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 128 (LICENSE)
+### Text 129 (LICENSE)
 
 Used by (1):
 
@@ -10353,7 +10381,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 129 (LICENSE-MIT)
+### Text 130 (LICENSE-MIT)
 
 Used by (2):
 
@@ -10388,7 +10416,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 130 (LICENSE-ISC)
+### Text 131 (LICENSE-ISC)
 
 Used by (2):
 
@@ -10413,7 +10441,7 @@ ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 THIS SOFTWARE.
 ```
 
-### Text 131 (LICENSE.md)
+### Text 132 (LICENSE.md)
 
 Used by (1):
 
@@ -10444,7 +10472,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Text 132 (LICENSE)
+### Text 133 (LICENSE)
 
 Used by (1):
 
@@ -10472,11 +10500,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 133 (LICENSE)
+### Text 134 (LICENSE)
 
 Used by (1):
 
-- i18next 26.7.1
+- i18next 27.0.1
 
 ```
 The MIT License (MIT)
@@ -10502,7 +10530,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 134 (LICENSE-APACHE)
+### Text 135 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -10712,7 +10740,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 135 (LICENSE-MIT)
+### Text 136 (LICENSE-MIT)
 
 Used by (1):
 
@@ -10746,7 +10774,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 136 (LICENSE)
+### Text 137 (LICENSE)
 
 Used by (1):
 
@@ -10776,7 +10804,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 137 (LICENSE)
+### Text 138 (LICENSE)
 
 Used by (18):
 
@@ -10848,7 +10876,7 @@ Portions of ICU4X may have been adapted from ICU4C and/or ICU4J.
 ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
 ```
 
-### Text 138 (LICENSE)
+### Text 139 (LICENSE)
 
 Used by (1):
 
@@ -10876,13 +10904,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 139 (LICENSE-MIT)
+### Text 140 (LICENSE-MIT)
 
 Used by (3):
 
 - idna 1.1.0
 - percent-encoding 2.3.2
-- url 2.5.8
+- url 2.5.9
 
 ```
 Copyright (c) 2013-2025 The rust-url developers
@@ -10912,7 +10940,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 140 (LICENSE-MIT)
+### Text 141 (LICENSE-MIT)
 
 Used by (1):
 
@@ -10946,7 +10974,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 141 (LICENSE-MIT)
+### Text 142 (LICENSE-MIT)
 
 Used by (2):
 
@@ -10981,7 +11009,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 142 (LICENSE)
+### Text 143 (LICENSE)
 
 Used by (1):
 
@@ -11011,7 +11039,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 143 (LICENSE-MIT)
+### Text 144 (LICENSE-MIT)
 
 Used by (1):
 
@@ -11027,7 +11055,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 144 (LICENSE-APACHE)
+### Text 145 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -11237,7 +11265,7 @@ Used by (1):
    limitations under the License.
 ```
 
-### Text 145 (LICENSE)
+### Text 146 (LICENSE)
 
 Used by (1):
 
@@ -11267,7 +11295,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 146 (LICENSE-MIT)
+### Text 147 (LICENSE-MIT)
 
 Used by (1):
 
@@ -11297,7 +11325,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 147 (LICENSE)
+### Text 148 (LICENSE)
 
 Used by (1):
 
@@ -11327,7 +11355,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 148 (LICENSE.md)
+### Text 149 (LICENSE.md)
 
 Used by (1):
 
@@ -11359,7 +11387,7 @@ SOFTWARE.
 [others]: https://github.com/json5/json5/contributors
 ```
 
-### Text 149 (LICENSE-MIT)
+### Text 150 (LICENSE-MIT)
 
 Used by (1):
 
@@ -11389,7 +11417,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 150 (LICENSE-APACHE)
+### Text 151 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -11599,7 +11627,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 151 (LICENSE-MIT)
+### Text 152 (LICENSE-MIT)
 
 Used by (1):
 
@@ -11627,7 +11655,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 152 (LICENSE-APACHE)
+### Text 153 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -11837,7 +11865,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 153 (LICENSE-MIT)
+### Text 154 (LICENSE-MIT)
 
 Used by (1):
 
@@ -11871,7 +11899,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 154 (LICENSE-MIT)
+### Text 155 (LICENSE-MIT)
 
 Used by (1):
 
@@ -11905,7 +11933,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 155 (LICENSE)
+### Text 156 (LICENSE)
 
 Used by (1):
 
@@ -11934,7 +11962,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 156 (LICENSE-MIT)
+### Text 157 (LICENSE-MIT)
 
 Used by (1):
 
@@ -11968,7 +11996,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 157 (LICENSE-MIT)
+### Text 158 (LICENSE-MIT)
 
 Used by (4):
 
@@ -12005,7 +12033,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 158 (LICENSE)
+### Text 159 (LICENSE)
 
 Used by (1):
 
@@ -12035,7 +12063,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 159 (LICENSE)
+### Text 160 (LICENSE)
 
 Used by (1):
 
@@ -12063,7 +12091,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 160 (LICENSE.httprouter)
+### Text 161 (LICENSE.httprouter)
 
 Used by (1):
 
@@ -12101,7 +12129,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Text 161 (LICENSE)
+### Text 162 (LICENSE)
 
 Used by (1):
 
@@ -12131,7 +12159,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 162 (LICENSE-MIT)
+### Text 163 (LICENSE-MIT)
 
 Used by (3):
 
@@ -12170,7 +12198,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 163 (LICENSE-MIT)
+### Text 164 (LICENSE-MIT)
 
 Used by (1):
 
@@ -12199,7 +12227,7 @@ THE SOFTWARE.
 
 ```
 
-### Text 164 (LICENSE.md)
+### Text 165 (LICENSE.md)
 
 Used by (1):
 
@@ -12245,7 +12273,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Text 165 (LICENSE)
+### Text 166 (LICENSE)
 
 Used by (1):
 
@@ -12313,7 +12341,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 166 (LICENSE-ZLIB.md)
+### Text 167 (LICENSE-ZLIB.md)
 
 Used by (1):
 
@@ -12336,7 +12364,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 3. This notice may not be removed or altered from any source distribution.
 ```
 
-### Text 167 (LICENSE)
+### Text 168 (LICENSE)
 
 Used by (1):
 
@@ -12370,7 +12398,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 168 (LICENSE-MIT.md)
+### Text 169 (LICENSE-MIT.md)
 
 Used by (1):
 
@@ -12403,7 +12431,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 169 (LICENSE)
+### Text 170 (LICENSE)
 
 Used by (1):
 
@@ -12431,7 +12459,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 170 (LICENSE-APACHE)
+### Text 171 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -12641,7 +12669,7 @@ Used by (1):
    limitations under the License.
 ```
 
-### Text 171 (LICENSE-MIT)
+### Text 172 (LICENSE-MIT)
 
 Used by (1):
 
@@ -12671,7 +12699,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 172 (NOTICE)
+### Text 173 (NOTICE)
 
 Used by (1):
 
@@ -12694,7 +12722,7 @@ These files were ported from the Java Caffeine library and are not dual-licensed
 Please refer to the LICENSE-APACHE file for more details on the Apache License 2.0.
 ```
 
-### Text 173 (LICENSE.md)
+### Text 174 (LICENSE.md)
 
 Used by (2):
 
@@ -12730,7 +12758,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Text 174 (LICENSE-APACHE.md)
+### Text 175 (LICENSE-APACHE.md)
 
 Used by (2):
 
@@ -12941,7 +12969,7 @@ Used by (2):
    limitations under the License.
 ```
 
-### Text 175 (LICENSE-MIT)
+### Text 176 (LICENSE-MIT)
 
 Used by (2):
 
@@ -12972,7 +13000,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 176 (LICENSE.spdx)
+### Text 177 (LICENSE.spdx)
 
 Used by (1):
 
@@ -13000,7 +13028,7 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/muda.git
 Creator: Person: Daniel Thompson-Yvetot
 ```
 
-### Text 177 (LICENSE-MIT)
+### Text 178 (LICENSE-MIT)
 
 Used by (1):
 
@@ -13034,7 +13062,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 178 (LICENSE)
+### Text 179 (LICENSE)
 
 Used by (1):
 
@@ -13064,7 +13092,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 179 (LICENSE)
+### Text 180 (LICENSE)
 
 Used by (1):
 
@@ -13093,7 +13121,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 180 (LICENSE)
+### Text 181 (LICENSE)
 
 Used by (1):
 
@@ -13124,7 +13152,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 181 (LICENSE-MIT)
+### Text 182 (LICENSE-MIT)
 
 Used by (1):
 
@@ -13152,7 +13180,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 182 (LICENSE.md)
+### Text 183 (LICENSE.md)
 
 Used by (1):
 
@@ -13186,7 +13214,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 183 (LICENSE.txt)
+### Text 184 (LICENSE.txt)
 
 Used by (1):
 
@@ -13568,7 +13596,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
   defined by the Mozilla Public License, v. 2.0.
 ```
 
-### Text 184 (LICENSE-MIT)
+### Text 185 (LICENSE-MIT)
 
 Used by (1):
 
@@ -13602,7 +13630,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 185 (LICENSE-THIRD-PARTY)
+### Text 186 (LICENSE-THIRD-PARTY)
 
 Used by (1):
 
@@ -13620,7 +13648,7 @@ option. All files in the project carrying such notice may not be
 copied, modified, or distributed except according to those terms.
 ```
 
-### Text 186 (LICENSE.md)
+### Text 187 (LICENSE.md)
 
 Used by (1):
 
@@ -13650,7 +13678,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 187 (LICENSE)
+### Text 188 (LICENSE)
 
 Used by (4):
 
@@ -13682,7 +13710,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 188 (LICENCE)
+### Text 189 (LICENCE)
 
 Used by (1):
 
@@ -13710,7 +13738,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 189 (LICENSE-MIT)
+### Text 190 (LICENSE-MIT)
 
 Used by (1):
 
@@ -13744,7 +13772,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 190 (LICENSE-MIT)
+### Text 191 (LICENSE-MIT)
 
 Used by (1):
 
@@ -13772,7 +13800,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 191 (LICENSE-Apache)
+### Text 192 (LICENSE-Apache)
 
 Used by (1):
 
@@ -13983,7 +14011,7 @@ Used by (1):
    limitations under the License.
 ```
 
-### Text 192 (LICENSE)
+### Text 193 (LICENSE)
 
 Used by (1):
 
@@ -14013,7 +14041,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 193 (LICENSE)
+### Text 194 (LICENSE)
 
 Used by (1):
 
@@ -14040,7 +14068,7 @@ This product bundles QR Code Generator, which is available under a
 "MIT" license. For details, see src/third-party/qrcodegen.
 ```
 
-### Text 194 (LICENSE-MIT.md)
+### Text 195 (LICENSE-MIT.md)
 
 Used by (1):
 
@@ -14072,7 +14100,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 195 (LICENSE-MIT)
+### Text 196 (LICENSE-MIT)
 
 Used by (1):
 
@@ -14107,7 +14135,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 196 (LICENSE-APACHE)
+### Text 197 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -14292,7 +14320,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 END OF TERMS AND CONDITIONS
 ```
 
-### Text 197 (LICENSE-APACHE)
+### Text 198 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -14488,7 +14516,7 @@ APPENDIX: How to apply the Apache License to your work.
    identification within third-party archives.
 ```
 
-### Text 198 (LICENSE-MIT)
+### Text 199 (LICENSE-MIT)
 
 Used by (1):
 
@@ -14522,7 +14550,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 199 (LICENSE-MIT.md)
+### Text 200 (LICENSE-MIT.md)
 
 Used by (1):
 
@@ -14552,7 +14580,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 200 (LICENSE-ZLIB.md)
+### Text 201 (LICENSE-ZLIB.md)
 
 Used by (1):
 
@@ -14572,7 +14600,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 3. This notice may not be removed or altered from any source distribution.
 ```
 
-### Text 201 (LICENSE)
+### Text 202 (LICENSE)
 
 Used by (1):
 
@@ -14795,7 +14823,7 @@ Apache License, version 2.0
    END OF TERMS AND CONDITIONS
 ```
 
-### Text 202 (LICENSE)
+### Text 203 (LICENSE)
 
 Used by (4):
 
@@ -14828,11 +14856,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 203 (LICENSE)
+### Text 204 (LICENSE)
 
 Used by (1):
 
-- react-i18next 17.1.11
+- react-i18next 18.0.1
 
 ```
 The MIT License (MIT)
@@ -14859,7 +14887,7 @@ SOFTWARE.
 
 ```
 
-### Text 204 (LICENSE-APACHE)
+### Text 205 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -15069,7 +15097,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 205 (LICENSE-MIT)
+### Text 206 (LICENSE-MIT)
 
 Used by (1):
 
@@ -15098,7 +15126,7 @@ THE SOFTWARE.
 
 ```
 
-### Text 206 (LICENSE)
+### Text 207 (LICENSE)
 
 Used by (1):
 
@@ -15128,7 +15156,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 207 (LICENSE-BoringSSL)
+### Text 208 (LICENSE-BoringSSL)
 
 Used by (1):
 
@@ -15409,7 +15437,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Text 208 (LICENSE)
+### Text 209 (LICENSE)
 
 Used by (1):
 
@@ -15427,7 +15455,7 @@ See src/polyfill/once_cell/LICENSE-APACHE and src/polyfill/once_cell/LICENSE-MIT
 for the license to code that was sourced from the once_cell project.
 ```
 
-### Text 209 (LICENSE-other-bits)
+### Text 210 (LICENSE-other-bits)
 
 Used by (1):
 
@@ -15449,7 +15477,7 @@ OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
 CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Text 210 (LICENSE)
+### Text 211 (LICENSE)
 
 Used by (2):
 
@@ -15675,7 +15703,7 @@ CC-BY-4.0. See https://creativecommons.org/licenses/by/4.0/legalcode for
 the full license text.
 ```
 
-### Text 211 (LICENSE)
+### Text 212 (LICENSE)
 
 Used by (1):
 
@@ -15706,7 +15734,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 212 (LICENSE-MIT)
+### Text 213 (LICENSE-MIT)
 
 Used by (1):
 
@@ -15738,7 +15766,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 213 (LICENSE-APACHE)
+### Text 214 (LICENSE-APACHE)
 
 Used by (2):
 
@@ -15924,7 +15952,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 END OF TERMS AND CONDITIONS
 ```
 
-### Text 214 (LICENSE-Apache-2.0_WITH_LLVM-exception)
+### Text 215 (LICENSE-Apache-2.0_WITH_LLVM-exception)
 
 Used by (1):
 
@@ -16153,7 +16181,7 @@ Software.
 
 ```
 
-### Text 215 (LICENSE-APACHE)
+### Text 216 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -16363,7 +16391,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 216 (LICENSE-MIT)
+### Text 217 (LICENSE-MIT)
 
 Used by (1):
 
@@ -16397,7 +16425,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 217 (LICENSE-MIT)
+### Text 218 (LICENSE-MIT)
 
 Used by (1):
 
@@ -16427,7 +16455,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 218 (LICENSE-APACHE)
+### Text 219 (LICENSE-APACHE)
 
 Used by (7):
 
@@ -16643,7 +16671,7 @@ Used by (7):
    limitations under the License.
 ```
 
-### Text 219 (LICENSE)
+### Text 220 (LICENSE)
 
 Used by (1):
 
@@ -16671,7 +16699,7 @@ The files under third-party/chromium are licensed as described in
 third-party/chromium/LICENSE.
 ```
 
-### Text 220 (LICENSE-BOOST)
+### Text 221 (LICENSE-BOOST)
 
 Used by (1):
 
@@ -16703,7 +16731,7 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 221 (LICENSE-MIT)
+### Text 222 (LICENSE-MIT)
 
 Used by (1):
 
@@ -16733,7 +16761,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 222 (LICENSE)
+### Text 223 (LICENSE)
 
 Used by (5):
 
@@ -16767,7 +16795,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 223 (LICENSE-MIT)
+### Text 224 (LICENSE-MIT)
 
 Used by (1):
 
@@ -16801,7 +16829,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 224 (LICENSE-MIT)
+### Text 225 (LICENSE-MIT)
 
 Used by (2):
 
@@ -16831,7 +16859,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 225 (LICENSE-MIT)
+### Text 226 (LICENSE-MIT)
 
 Used by (1):
 
@@ -16865,7 +16893,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 226 (LICENSE-MIT)
+### Text 227 (LICENSE-MIT)
 
 Used by (2):
 
@@ -16900,7 +16928,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 227 (LICENSE-MIT)
+### Text 228 (LICENSE-MIT)
 
 Used by (2):
 
@@ -16931,7 +16959,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 228 (LICENSE-MIT)
+### Text 229 (LICENSE-MIT)
 
 Used by (1):
 
@@ -16967,7 +16995,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 229 (LICENSE)
+### Text 230 (LICENSE)
 
 Used by (1):
 
@@ -16995,7 +17023,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 230 (LICENSE-MIT)
+### Text 231 (LICENSE-MIT)
 
 Used by (1):
 
@@ -17029,7 +17057,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 231 (LICENSE.md)
+### Text 232 (LICENSE.md)
 
 Used by (1):
 
@@ -17059,7 +17087,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 232 (COPYING)
+### Text 233 (COPYING)
 
 Used by (1):
 
@@ -17075,7 +17103,7 @@ http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
 option.
 ```
 
-### Text 233 (LICENSE)
+### Text 234 (LICENSE)
 
 Used by (1):
 
@@ -17109,7 +17137,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 234 (LICENSE-MIT)
+### Text 235 (LICENSE-MIT)
 
 Used by (1):
 
@@ -17143,7 +17171,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 235 (LICENSE-MIT)
+### Text 236 (LICENSE-MIT)
 
 Used by (1):
 
@@ -17177,7 +17205,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 236 (LICENSE)
+### Text 237 (LICENSE)
 
 Used by (1):
 
@@ -17209,7 +17237,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 237 (LICENSE)
+### Text 238 (LICENSE)
 
 Used by (1):
 
@@ -17237,7 +17265,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 238 (LICENSE)
+### Text 239 (LICENSE)
 
 Used by (1):
 
@@ -17275,7 +17303,7 @@ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 ```
 
-### Text 239 (LICENSE-APACHE)
+### Text 240 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -17485,7 +17513,7 @@ Used by (1):
    limitations under the License.
 ```
 
-### Text 240 (LICENSE-MIT)
+### Text 241 (LICENSE-MIT)
 
 Used by (1):
 
@@ -17513,7 +17541,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 241 (LICENSE)
+### Text 242 (LICENSE)
 
 Used by (1):
 
@@ -17529,7 +17557,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 242 (LICENSE-MIT)
+### Text 243 (LICENSE-MIT)
 
 Used by (1):
 
@@ -17559,7 +17587,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 243 (LICENSE-MIT)
+### Text 244 (LICENSE-MIT)
 
 Used by (3):
 
@@ -17595,7 +17623,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 244 (LICENSE)
+### Text 245 (LICENSE)
 
 Used by (1):
 
@@ -17626,7 +17654,7 @@ SOFTWARE.
 
 ```
 
-### Text 245 (LICENSE-MIT)
+### Text 246 (LICENSE-MIT)
 
 Used by (1):
 
@@ -17656,7 +17684,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 246 (LICENSE-APACHE)
+### Text 247 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -17678,7 +17706,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 247 (LICENSE.spdx)
+### Text 248 (LICENSE.spdx)
 
 Used by (1):
 
@@ -17705,7 +17733,7 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/tao.git
 Creator: Person: Daniel Thompson-Yvetot
 ```
 
-### Text 248 (LICENSE-MIT)
+### Text 249 (LICENSE-MIT)
 
 Used by (1):
 
@@ -17739,7 +17767,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 249 (LICENSE_APACHE-2.0)
+### Text 250 (LICENSE_APACHE-2.0)
 
 Used by (6):
 
@@ -17930,7 +17958,7 @@ Used by (6):
    END OF TERMS AND CONDITIONS
 ```
 
-### Text 250 (LICENSE_MIT)
+### Text 251 (LICENSE_MIT)
 
 Used by (5):
 
@@ -17964,7 +17992,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 251 (LICENSE_MIT)
+### Text 252 (LICENSE_MIT)
 
 Used by (1):
 
@@ -17994,7 +18022,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 252 (LICENSE-MIT)
+### Text 253 (LICENSE-MIT)
 
 Used by (2):
 
@@ -18029,7 +18057,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 253 (LICENSE-MIT)
+### Text 254 (LICENSE-MIT)
 
 Used by (1):
 
@@ -18063,7 +18091,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 254 (LICENSE-APACHE)
+### Text 255 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -18273,7 +18301,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 255 (LICENSE-MIT)
+### Text 256 (LICENSE-MIT)
 
 Used by (3):
 
@@ -18303,7 +18331,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 256 (LICENSE-MIT.md)
+### Text 257 (LICENSE-MIT.md)
 
 Used by (1):
 
@@ -18317,7 +18345,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 257 (LICENSE-MIT.md)
+### Text 258 (LICENSE-MIT.md)
 
 Used by (1):
 
@@ -18347,7 +18375,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 258 (LICENSE-ZLIB.md)
+### Text 259 (LICENSE-ZLIB.md)
 
 Used by (1):
 
@@ -18376,7 +18404,7 @@ freely, subject to the following restrictions:
 
 ```
 
-### Text 259 (LICENSE-APACHE.md)
+### Text 260 (LICENSE-APACHE.md)
 
 Used by (1):
 
@@ -18587,7 +18615,7 @@ Used by (1):
 
 ```
 
-### Text 260 (LICENSE)
+### Text 261 (LICENSE)
 
 Used by (2):
 
@@ -18618,7 +18646,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 261 (LICENSE-MIT)
+### Text 262 (LICENSE-MIT)
 
 Used by (1):
 
@@ -18648,7 +18676,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 262 (LICENSE)
+### Text 263 (LICENSE)
 
 Used by (1):
 
@@ -18679,7 +18707,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 263 (LICENSE-APACHE)
+### Text 264 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -18889,7 +18917,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 264 (LICENSE-MIT)
+### Text 265 (LICENSE-MIT)
 
 Used by (1):
 
@@ -18923,7 +18951,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 265 (LICENSE)
+### Text 266 (LICENSE)
 
 Used by (1):
 
@@ -18952,7 +18980,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 266 (LICENSE)
+### Text 267 (LICENSE)
 
 Used by (3):
 
@@ -18988,7 +19016,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 267 (LICENSE)
+### Text 268 (LICENSE)
 
 Used by (1):
 
@@ -19022,7 +19050,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 268 (LICENSE)
+### Text 269 (LICENSE)
 
 Used by (5):
 
@@ -19060,7 +19088,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 269 (LICENSE.spdx)
+### Text 270 (LICENSE.spdx)
 
 Used by (1):
 
@@ -19088,7 +19116,7 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/tray-icon.git
 Creator: Person: Daniel Thompson-Yvetot
 ```
 
-### Text 270 (LICENSE)
+### Text 271 (LICENSE)
 
 Used by (1):
 
@@ -19118,7 +19146,7 @@ THE SOFTWARE.
 
 ```
 
-### Text 271 (LICENSE.txt)
+### Text 272 (LICENSE.txt)
 
 Used by (1):
 
@@ -19139,7 +19167,7 @@ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Text 272 (LICENSE-MIT)
+### Text 273 (LICENSE-MIT)
 
 Used by (1):
 
@@ -19168,7 +19196,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 273 (LICENSE-APACHE)
+### Text 274 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -19378,7 +19406,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 274 (LICENSE-MIT)
+### Text 275 (LICENSE-MIT)
 
 Used by (1):
 
@@ -19408,7 +19436,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 275 (LICENSE)
+### Text 276 (LICENSE)
 
 Used by (1):
 
@@ -19418,7 +19446,7 @@ Used by (1):
 MIT OR Apache-2.0
 ```
 
-### Text 276 (LICENSE.txt)
+### Text 277 (LICENSE.txt)
 
 Used by (1):
 
@@ -19482,7 +19510,7 @@ If the Work includes a "NOTICE" text file as part of its distribution, then any 
 END OF TERMS AND CONDITIONS
 ```
 
-### Text 277 (LICENSE)
+### Text 278 (LICENSE)
 
 Used by (1):
 
@@ -19512,7 +19540,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 278 (LICENSE-UNICODE)
+### Text 279 (LICENSE-UNICODE)
 
 Used by (1):
 
@@ -19560,7 +19588,7 @@ dealings in these Data Files or Software without prior written
 authorization of the copyright holder.
 ```
 
-### Text 279 (LICENSE.txt)
+### Text 280 (LICENSE.txt)
 
 Used by (1):
 
@@ -19582,7 +19610,7 @@ Used by (1):
 // OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Text 280 (LICENSE-MIT)
+### Text 281 (LICENSE-MIT)
 
 Used by (1):
 
@@ -19612,7 +19640,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 281 (LICENSE-MIT.txt)
+### Text 282 (LICENSE-MIT.txt)
 
 Used by (1):
 
@@ -19628,7 +19656,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 282 (LICENSE)
+### Text 283 (LICENSE)
 
 Used by (1):
 
@@ -19657,7 +19685,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 283 (LICENSE)
+### Text 284 (LICENSE)
 
 Used by (1):
 
@@ -19687,7 +19715,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 284 (LICENSE-MIT)
+### Text 285 (LICENSE-MIT)
 
 Used by (1):
 
@@ -19721,7 +19749,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 285 (LICENSE-MIT)
+### Text 286 (LICENSE-MIT)
 
 Used by (1):
 
@@ -19756,7 +19784,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 286 (LICENSE.md)
+### Text 287 (LICENSE.md)
 
 Used by (1):
 
@@ -19774,7 +19802,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 287 (LICENSE)
+### Text 288 (LICENSE)
 
 Used by (1):
 
@@ -19802,7 +19830,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Text 288 (LICENSE)
+### Text 289 (LICENSE)
 
 Used by (1):
 
@@ -19831,7 +19859,7 @@ THE SOFTWARE.
 
 ```
 
-### Text 289 (LICENSE-APACHE)
+### Text 290 (LICENSE-APACHE)
 
 Used by (1):
 
@@ -20041,7 +20069,7 @@ Used by (1):
    limitations under the License.
 ```
 
-### Text 290 (LICENSE-MIT)
+### Text 291 (LICENSE-MIT)
 
 Used by (1):
 
@@ -20071,7 +20099,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 291 (LICENSE)
+### Text 292 (LICENSE)
 
 Used by (2):
 
@@ -20142,7 +20170,7 @@ of Data, including for example machine learning models and models'
 insights.
 ```
 
-### Text 292 (LICENSE-MIT)
+### Text 293 (LICENSE-MIT)
 
 Used by (1):
 
@@ -20172,7 +20200,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 293 (LICENSE.spdx)
+### Text 294 (LICENSE.spdx)
 
 Used by (1):
 
@@ -20200,7 +20228,7 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/window-vibrancy.git
 Creator: Person: Daniel Thompson-Yvetot
 ```
 
-### Text 294 (LICENSE-MIT)
+### Text 295 (LICENSE-MIT)
 
 Used by (1):
 
@@ -20227,7 +20255,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 295 (LICENSE.spdx)
+### Text 296 (LICENSE.spdx)
 
 Used by (1):
 
@@ -20256,7 +20284,7 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/wry.git
 Creator: Person: Daniel Thompson-Yvetot
 ```
 
-### Text 296 (LICENSE-MIT)
+### Text 297 (LICENSE-MIT)
 
 Used by (1):
 
@@ -20286,7 +20314,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 297 (LICENSE-MIT)
+### Text 298 (LICENSE-MIT)
 
 Used by (1):
 
@@ -20302,7 +20330,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 298 (LICENSE-MIT)
+### Text 299 (LICENSE-MIT)
 
 Used by (1):
 
@@ -20336,7 +20364,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 299 (LICENSE)
+### Text 300 (LICENSE)
 
 Used by (1):
 
@@ -20366,7 +20394,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 300 (LICENSE)
+### Text 301 (LICENSE)
 
 Used by (1):
 
@@ -20394,7 +20422,7 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ```
 
-### Text 301 (LICENSE)
+### Text 302 (LICENSE)
 
 Used by (3):
 
@@ -20433,7 +20461,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Text 302 (LICENSE.BSD-3-Clause)
+### Text 303 (LICENSE.BSD-3-Clause)
 
 Used by (1):
 
@@ -20474,7 +20502,7 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Text 303 (LICENSE-ZLIB)
+### Text 304 (LICENSE-ZLIB)
 
 Used by (2):
 
@@ -20503,7 +20531,7 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ```
 
-### Text 304 (LICENSE-MIT)
+### Text 305 (LICENSE-MIT)
 
 Used by (2):
 
@@ -20534,7 +20562,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 305 (LICENSE) [supplied / 補った全文]
+### Text 306 (LICENSE) [supplied / 補った全文]
 
 Supplied from https://github.com/dropbox/rust-alloc-no-stdlib at 0a81fd6928ea3b33c8cd484aa4575d50ffb98012 (published commit), retrieved 2026-11-16; this file is not part of the published crate package.
 
@@ -20559,7 +20587,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Text 306 (LICENSE-MIT) [supplied / 補った全文]
+### Text 307 (LICENSE-MIT) [supplied / 補った全文]
 
 Supplied from https://github.com/rusticata/asn1-rs at a20e5f7319c896737ad0f2557037817b91ad854f (published commit), retrieved 2026-11-16; this file is not part of the published crate package.
 
@@ -20597,7 +20625,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 307 (LICENSE-APACHE) [supplied / 補った全文]
+### Text 308 (LICENSE-APACHE) [supplied / 補った全文]
 
 Supplied from https://github.com/rusticata/asn1-rs at a20e5f7319c896737ad0f2557037817b91ad854f (published commit), retrieved 2026-11-16; this file is not part of the published crate package.
 
@@ -20811,7 +20839,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-### Text 308 (LICENSE-MIT.txt) [supplied / 補った全文]
+### Text 309 (LICENSE-MIT.txt) [supplied / 補った全文]
 
 Supplied from https://github.com/madsmtm/objc2 at 8a5abacd90d5403fc0463459a35826f892b9142e (latest upstream main), retrieved 2026-11-16; this file is not part of the published crate package.
 
@@ -20874,7 +20902,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
 
-### Text 309 (LICENSE-APACHE.txt) [supplied / 補った全文]
+### Text 310 (LICENSE-APACHE.txt) [supplied / 補った全文]
 
 Supplied from https://github.com/madsmtm/objc2 at 8a5abacd90d5403fc0463459a35826f892b9142e (latest upstream main), retrieved 2026-11-16; this file is not part of the published crate package.
 
@@ -21083,7 +21111,7 @@ Used by (14):
 Copyright 2026 Mads Marquart
 ```
 
-### Text 310 (LICENSE-ZLIB.txt) [supplied / 補った全文]
+### Text 311 (LICENSE-ZLIB.txt) [supplied / 補った全文]
 
 Supplied from https://github.com/madsmtm/objc2 at 8a5abacd90d5403fc0463459a35826f892b9142e (latest upstream main), retrieved 2026-11-16; this file is not part of the published crate package.
 
@@ -21124,7 +21152,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 3. This notice may not be removed or altered from any source distribution.
 ```
 
-### Text 311 (LICENSE) [supplied / 補った全文]
+### Text 312 (LICENSE) [supplied / 補った全文]
 
 Supplied from https://github.com/DelSkayn/rquickjs at d7ef5eeae702fea24c03643064de454f1c1dd4b0 (published commit), retrieved 2026-11-16; this file is not part of the published crate package.
 
@@ -21160,7 +21188,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Text 312 (LICENSE) [supplied / 補った全文]
+### Text 313 (LICENSE) [supplied / 補った全文]
 
 Supplied from https://github.com/servo/rust-cssparser (published crate cssparser 0.37.0), retrieved 2026-11-16; this file is not part of the published crate package.
 
