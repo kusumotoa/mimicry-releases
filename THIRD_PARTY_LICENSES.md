@@ -19,7 +19,7 @@ This application uses the following open source software, including both direct 
 | anstyle-parse                | 1.0.0            | MIT OR Apache-2.0                                   | https://github.com/rust-cli/anstyle.git                            |
 | anstyle-query                | 1.1.5            | MIT OR Apache-2.0                                   | https://github.com/rust-cli/anstyle.git                            |
 | anyhow                       | 1.0.103          | MIT OR Apache-2.0                                   | https://github.com/dtolnay/anyhow                                  |
-| apollo-parser                | 0.8.6            | MIT OR Apache-2.0                                   | https://github.com/apollographql/apollo-rs                         |
+| apollo-parser                | 0.8.7            | MIT OR Apache-2.0                                   | https://github.com/apollographql/apollo-rs                         |
 | asn1-rs                      | 0.7.2            | MIT OR Apache-2.0                                   | https://github.com/rusticata/asn1-rs.git                           |
 | asn1-rs-derive               | 0.6.0            | MIT OR Apache-2.0                                   | https://github.com/rusticata/asn1-rs.git                           |
 | asn1-rs-impl                 | 0.2.0            | MIT/Apache-2.0                                      | https://github.com/rusticata/asn1-rs.git                           |
@@ -134,7 +134,7 @@ This application uses the following open source software, including both direct 
 | getrandom                    | 0.2.17           | MIT OR Apache-2.0                                   | https://github.com/rust-random/getrandom                           |
 | getrandom                    | 0.3.4            | MIT OR Apache-2.0                                   | https://github.com/rust-random/getrandom                           |
 | getrandom                    | 0.4.3            | MIT OR Apache-2.0                                   | https://github.com/rust-random/getrandom                           |
-| glob                         | 0.3.3            | MIT OR Apache-2.0                                   | https://github.com/rust-lang/glob                                  |
+| glob                         | 0.3.4            | MIT OR Apache-2.0                                   | https://github.com/rust-lang/glob                                  |
 | h2                           | 0.4.19           | MIT                                                 | https://github.com/hyperium/h2                                     |
 | hashbrown                    | 0.12.3           | MIT OR Apache-2.0                                   | https://github.com/rust-lang/hashbrown                             |
 | hashbrown                    | 0.14.5           | MIT OR Apache-2.0                                   | https://github.com/rust-lang/hashbrown                             |
@@ -188,7 +188,7 @@ This application uses the following open source software, including both direct 
 | matchers                     | 0.2.0            | MIT                                                 | https://github.com/hawkw/matchers                                  |
 | matchit                      | 0.8.4            | MIT AND BSD-3-Clause                                | https://github.com/ibraheemdev/matchit                             |
 | md-5                         | 0.11.0           | MIT OR Apache-2.0                                   | https://github.com/RustCrypto/hashes                               |
-| memchr                       | 2.8.2            | Unlicense OR MIT                                    | https://github.com/BurntSushi/memchr                               |
+| memchr                       | 2.8.3            | Unlicense OR MIT                                    | https://github.com/BurntSushi/memchr                               |
 | mime                         | 0.3.17           | MIT OR Apache-2.0                                   | https://github.com/hyperium/mime                                   |
 | minimal-lexical              | 0.2.1            | MIT/Apache-2.0                                      | https://github.com/Alexhuszagh/minimal-lexical                     |
 | minisign-verify              | 0.3.0            | MIT                                                 | https://github.com/jedisct1/rust-minisign-verify                   |
@@ -287,12 +287,12 @@ This application uses the following open source software, including both direct 
 | security-framework-sys       | 2.17.0           | MIT OR Apache-2.0                                   | https://github.com/kornelski/rust-security-framework               |
 | selectors                    | 0.38.0           | MPL-2.0                                             | https://github.com/servo/stylo                                     |
 | semver                       | 1.0.28           | MIT OR Apache-2.0                                   | https://github.com/dtolnay/semver                                  |
-| serde                        | 1.0.228          | MIT OR Apache-2.0                                   | https://github.com/serde-rs/serde                                  |
+| serde                        | 1.0.229          | MIT OR Apache-2.0                                   | https://github.com/serde-rs/serde                                  |
 | serde-untagged               | 0.1.9            | MIT OR Apache-2.0                                   | https://github.com/dtolnay/serde-untagged                          |
-| serde_core                   | 1.0.228          | MIT OR Apache-2.0                                   | https://github.com/serde-rs/serde                                  |
-| serde_derive                 | 1.0.228          | MIT OR Apache-2.0                                   | https://github.com/serde-rs/serde                                  |
+| serde_core                   | 1.0.229          | MIT OR Apache-2.0                                   | https://github.com/serde-rs/serde                                  |
+| serde_derive                 | 1.0.229          | MIT OR Apache-2.0                                   | https://github.com/serde-rs/serde                                  |
 | serde_derive_internals       | 0.29.1           | MIT OR Apache-2.0                                   | https://github.com/serde-rs/serde                                  |
-| serde_json                   | 1.0.150          | MIT OR Apache-2.0                                   | https://github.com/serde-rs/json                                   |
+| serde_json                   | 1.0.154          | MIT OR Apache-2.0                                   | https://github.com/serde-rs/json                                   |
 | serde_path_to_error          | 0.1.20           | MIT OR Apache-2.0                                   | https://github.com/dtolnay/path-to-error                           |
 | serde_repr                   | 0.1.20           | MIT OR Apache-2.0                                   | https://github.com/dtolnay/serde-repr                              |
 | serde_spanned                | 1.1.1            | MIT OR Apache-2.0                                   | https://github.com/toml-rs/toml                                    |
@@ -308,7 +308,7 @@ This application uses the following open source software, including both direct 
 | sharded-slab                 | 0.1.7            | MIT                                                 | https://github.com/hawkw/sharded-slab                              |
 | signal-hook-registry         | 1.4.8            | MIT OR Apache-2.0                                   | https://github.com/vorner/signal-hook                              |
 | simd-adler32                 | 0.3.9            | MIT                                                 | https://github.com/mcountryman/simd-adler32                        |
-| similar                      | 3.1.1            | Apache-2.0                                          | https://github.com/mitsuhiko/similar                               |
+| similar                      | 3.2.1            | Apache-2.0                                          | https://github.com/mitsuhiko/similar                               |
 | siphasher                    | 1.0.3            | MIT/Apache-2.0                                      | https://github.com/jedisct1/rust-siphash                           |
 | slab                         | 0.4.12           | MIT                                                 | https://github.com/tokio-rs/slab                                   |
 | smallvec                     | 1.15.2           | MIT OR Apache-2.0                                   | https://github.com/servo/rust-smallvec                             |
@@ -347,9 +347,9 @@ This application uses the following open source software, including both direct 
 | thiserror                    | 2.0.21           | MIT OR Apache-2.0                                   | https://github.com/dtolnay/thiserror                               |
 | thiserror-impl               | 2.0.21           | MIT OR Apache-2.0                                   | https://github.com/dtolnay/thiserror                               |
 | thread_local                 | 1.1.9            | MIT OR Apache-2.0                                   | https://github.com/Amanieu/thread_local-rs                         |
-| time                         | 0.3.53           | MIT OR Apache-2.0                                   | https://github.com/time-rs/time                                    |
+| time                         | 0.3.55           | MIT OR Apache-2.0                                   | https://github.com/time-rs/time                                    |
 | time-core                    | 0.1.9            | MIT OR Apache-2.0                                   | https://github.com/time-rs/time                                    |
-| time-macros                  | 0.2.31           | MIT OR Apache-2.0                                   | https://github.com/time-rs/time                                    |
+| time-macros                  | 0.2.32           | MIT OR Apache-2.0                                   | https://github.com/time-rs/time                                    |
 | tinystr                      | 0.8.3            | Unicode-3.0                                         | https://github.com/unicode-org/icu4x                               |
 | tinyvec                      | 1.11.0           | Zlib OR Apache-2.0 OR MIT                           | https://github.com/Lokathor/tinyvec                                |
 | tinyvec_macros               | 0.1.1            | MIT OR Apache-2.0 OR Zlib                           | https://github.com/Soveu/tinyvec_macros                            |
@@ -1133,9 +1133,9 @@ Used by (18):
 - tauri-runtime 2.12.2
 - tauri-runtime-wry 2.12.3
 - tauri-utils 2.10.2
-- time 0.3.53
+- time 0.3.55
 - time-core 0.1.9
-- time-macros 0.2.31
+- time-macros 0.2.32
 
 ```
 
@@ -1482,12 +1482,12 @@ Used by (49):
 - rustc-hash 1.1.0
 - rustix 1.1.6
 - semver 1.0.28
-- serde 1.0.228
+- serde 1.0.229
 - serde-untagged 0.1.9
-- serde_core 1.0.228
-- serde_derive 1.0.228
+- serde_core 1.0.229
+- serde_derive 1.0.229
 - serde_derive_internals 0.29.1
-- serde_json 1.0.150
+- serde_json 1.0.154
 - serde_path_to_error 0.1.20
 - serde_repr 0.1.20
 - servo_arc 0.4.3
@@ -1765,7 +1765,7 @@ Used by (5):
 
 - aho-corasick 1.1.4
 - byteorder 1.5.0
-- memchr 2.8.2
+- memchr 2.8.3
 - same-file 1.0.6
 - walkdir 2.5.0
 
@@ -1782,7 +1782,7 @@ Used by (6):
 - aho-corasick 1.1.4
 - byteorder 1.5.0
 - byteorder-lite 0.1.0
-- memchr 2.8.2
+- memchr 2.8.3
 - ucd-trie 0.1.7
 - walkdir 2.5.0
 
@@ -1817,7 +1817,7 @@ Used by (6):
 - aho-corasick 1.1.4
 - byteorder 1.5.0
 - byteorder-lite 0.1.0
-- memchr 2.8.2
+- memchr 2.8.3
 - same-file 1.0.6
 - walkdir 2.5.0
 
@@ -2382,12 +2382,12 @@ Used by (33):
 - ref-cast-impl 1.0.25
 - ryu 1.0.23
 - semver 1.0.28
-- serde 1.0.228
+- serde 1.0.229
 - serde-untagged 0.1.9
-- serde_core 1.0.228
-- serde_derive 1.0.228
+- serde_core 1.0.229
+- serde_derive 1.0.229
 - serde_derive_internals 0.29.1
-- serde_json 1.0.150
+- serde_json 1.0.154
 - serde_path_to_error 0.1.20
 - serde_repr 0.1.20
 - serde_urlencoded 0.7.1
@@ -2584,7 +2584,7 @@ END OF TERMS AND CONDITIONS
 
 Used by (1):
 
-- apollo-parser 0.8.6
+- apollo-parser 0.8.7
 
 ```
 ../../LICENSE-MIT
@@ -2594,7 +2594,7 @@ Used by (1):
 
 Used by (1):
 
-- apollo-parser 0.8.6
+- apollo-parser 0.8.7
 
 ```
 ../../LICENSE-APACHE
@@ -2792,7 +2792,7 @@ Used by (101):
 - flate2 1.1.9
 - fnv 1.0.7
 - form_urlencoded 1.2.3
-- glob 0.3.3
+- glob 0.3.4
 - hashbrown 0.12.3
 - hashbrown 0.14.5
 - hashbrown 0.17.1
@@ -2837,7 +2837,7 @@ Used by (101):
 - serde_with_macros 3.21.0
 - servo_arc 0.4.3
 - signal-hook-registry 1.4.8
-- similar 3.1.1
+- similar 3.2.1
 - smallvec 1.15.2
 - socket2 0.6.4
 - stable_deref_trait 1.2.1
@@ -3504,7 +3504,7 @@ DEALINGS IN THE SOFTWARE.
 Used by (11):
 
 - bitflags 2.13.0
-- glob 0.3.3
+- glob 0.3.4
 - log 0.4.33
 - num-bigint 0.4.8
 - num-integer 0.1.46
@@ -18305,9 +18305,9 @@ limitations under the License.
 
 Used by (3):
 
-- time 0.3.53
+- time 0.3.55
 - time-core 0.1.9
-- time-macros 0.2.31
+- time-macros 0.2.32
 
 ```
 Copyright (c) Jacob Pratt et al.
